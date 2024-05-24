@@ -1,6 +1,6 @@
 import { Button, Typography, Grid, Box } from "@mui/material";
 import knpc from "../../../assets/images/projects/knpc/knpc.jpg";
-import knpc2 from "../../../assets/images/projects/knpc/knpc2.jpg";
+import knpc3 from "../../../assets/images/projects/knpc/knpc3.webp";
 import oil_refinery from "../../../assets/images/projects/knpc/oil_refinery.png";
 import gas_processing from "../../../assets/images/projects/knpc/gas_processing.png";
 import local_marketing from "../../../assets/images/projects/knpc/local_marketing.png";
@@ -18,16 +18,16 @@ const EachProject = () => {
       >
         <img
           style={{ marginY: "10px" }}
-          height={250}
-          width={250}
+          height={200}
+          width={200}
           src={knpc}
           alt="knpc"
         />
         <img
-          style={{ borderRadius: 10, marginTop: "25px" }}
-          height={250}
-          width={500}
-          src={knpc2}
+          style={{ borderRadius: 10 }}
+          height={400}
+          width={550}
+          src={knpc3}
           alt="knpc2"
         />
       </Grid>

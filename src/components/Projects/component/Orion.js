@@ -118,16 +118,9 @@ const EachProject = () => {
         md={6}
       >
         <img
-          style={{ marginY: "10px" }}
-          height={200}
-          width={200}
-          src={orion}
-          alt="orion"
-        />
-        <img
           style={{ borderRadius: 10, marginTop: "25px" }}
-          height={300}
-          width={500}
+          height={400}
+          width={600}
           src={orion2}
           alt="orion2"
         />

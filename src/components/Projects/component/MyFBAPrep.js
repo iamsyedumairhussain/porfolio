@@ -31,8 +31,8 @@ const EachProject = () => {
         />
         <img
           style={{ marginTop: "25px", borderRadius: 10 }}
-          height={300}
-          width={500}
+          height={400}
+          width={600}
           src={myfbaprep2}
           alt="myfbaprep2"
         />

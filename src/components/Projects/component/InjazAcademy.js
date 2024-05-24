@@ -36,12 +36,12 @@ const EachProject = () => {
             <Box padding={1} color="#707B7C" textAlign="center">
               <img
                 src={injazacademy_icon}
-                width={50}
-                height={50}
+                width={40}
+                height={40}
                 alt="fbaprep"
               />
               <Typography fontWeight="bolder" color="#5499C7" variant="body1">
-                WORK READINESS
+                Work readiness
               </Typography>
               <Typography marginTop={1} variant="body1">
                 Preparing Youth for the Jobs of the Future
@@ -52,12 +52,12 @@ const EachProject = () => {
             <Box padding={1} color="#707B7C" textAlign="center">
               <img
                 src={injazacademy_icon}
-                width={50}
-                height={50}
+                width={40}
+                height={40}
                 alt="fbaprep"
               />
               <Typography fontWeight="bolder" color="#5499C7" variant="body1">
-                FINANCIAL LITERACY
+                Financial literacy
               </Typography>
               <Typography marginTop={1} variant="body1">
                 Developing Financial Independence
@@ -68,12 +68,12 @@ const EachProject = () => {
             <Box padding={1} color="#707B7C" textAlign="center">
               <img
                 src={injazacademy_icon}
-                width={50}
-                height={50}
+                width={40}
+                height={40}
                 alt="fbaprep"
               />
               <Typography fontWeight="bolder" color="#5499C7" variant="body1">
-                ENTREPRENEURSHIP
+                Entrepreneurship
               </Typography>
               <Typography marginTop={1} variant="body1">
                 Cultivating an Entrepreneurial Mindset
@@ -89,7 +89,6 @@ const EachProject = () => {
         xs={12}
         md={6}
       >
-        {" "}
         <img
           style={{ marginTop: "30px" }}
           height={300}
@@ -99,8 +98,8 @@ const EachProject = () => {
         />
         <img
           style={{ borderRadius: 10, marginTop: "10px" }}
-          height={350}
-          width={550}
+          height={450}
+          width={600}
           src={injazacademy2}
           alt="injazacademy2"
         />
