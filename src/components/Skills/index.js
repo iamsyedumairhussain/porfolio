@@ -24,7 +24,7 @@ const Services = () => {
         <Grid marginY={3} item>
           <Box sx={{ width: 350 }}>
             <Card
-              sx={{ padding: 2, color: "#34495E", backgroundColor: "#F7F9F9" }}
+              sx={{ padding: 2, color: "#34495E", backgroundColor: "#FBFCFC" }}
               elevation={3}
             >
               <Box textAlign="center">
@@ -93,7 +93,7 @@ const Services = () => {
         <Grid marginY={3} item>
           <Box sx={{ width: 350 }}>
             <Card
-              sx={{ padding: 2, color: "#34495E", backgroundColor: "#F7F9F9" }}
+              sx={{ padding: 2, color: "#34495E", backgroundColor: "#FBFCFC" }}
               elevation={3}
             >
               <Box textAlign="center">
@@ -159,10 +159,9 @@ const Services = () => {
         <Grid marginY={3} item>
           <Box sx={{ width: 350, height: "100%" }}>
             <Card
-              sx={{ padding: 2, color: "#34495E", backgroundColor: "#F7F9F9" }}
+              sx={{ padding: 2, color: "#34495E", backgroundColor: "#FBFCFC" }}
               elevation={3}
             >
-              {" "}
               <Box textAlign="center">
                 <img src={tools} width={50} height={50} alt="ux" />
               </Box>
@@ -204,7 +203,6 @@ const Services = () => {
                       marginTop: 5,
                     }}
                   >
-                    {" "}
                     <li>AWS</li>
                     <li>Golang</li>
                     <li>C - C++</li>
@@ -219,7 +217,7 @@ const Services = () => {
         <Grid marginY={3} item>
           <Box sx={{ width: 350 }}>
             <Card
-              sx={{ padding: 2, color: "#34495E", backgroundColor: "#F7F9F9" }}
+              sx={{ padding: 2, color: "#34495E", backgroundColor: "#FBFCFC" }}
               elevation={3}
             >
               <Box textAlign="center">

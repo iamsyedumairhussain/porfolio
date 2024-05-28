@@ -1,9 +1,9 @@
 import { Button, Typography, Grid, Box } from "@mui/material";
 import knpc from "../../../assets/images/projects/knpc/knpc.jpg";
 import knpc3 from "../../../assets/images/projects/knpc/knpc3.webp";
-import oil_refinery from "../../../assets/images/projects/knpc/oil_refinery.png";
-import gas_processing from "../../../assets/images/projects/knpc/gas_processing.png";
-import local_marketing from "../../../assets/images/projects/knpc/local_marketing.png";
+import oil_refinery from "../../../assets/images/projects/knpc/factory.png";
+import gas_processing from "../../../assets/images/projects/knpc/gas-storage.png";
+import local_marketing from "../../../assets/images/projects/knpc/marketing-agency.png";
 import React from "react";
 
 const EachProject = () => {
@@ -55,9 +55,7 @@ const EachProject = () => {
             <Box
               padding={1}
               color="#707B7C"
-              sx={{ borderColor: "#707B7C" }}
-              borderRadius={2}
-              border={1}
+              sx={{ boxShadow: 2 }}
               textAlign="center"
             >
               <img
@@ -66,7 +64,7 @@ const EachProject = () => {
                 height={70}
                 alt="oil_refinery"
               />
-              <Typography fontWeight="bolder" variant="body2">
+              <Typography marginTop={1} fontWeight="bolder" variant="body2">
                 Oil refinery
               </Typography>
             </Box>
@@ -75,9 +73,7 @@ const EachProject = () => {
             <Box
               color="#707B7C"
               padding={1}
-              sx={{ borderColor: "#707B7C" }}
-              borderRadius={2}
-              border={1}
+              sx={{ boxShadow: 2 }}
               textAlign="center"
             >
               <img
@@ -86,7 +82,7 @@ const EachProject = () => {
                 height={70}
                 alt="gas_processing"
               />
-              <Typography fontWeight="bolder" variant="body2">
+              <Typography marginTop={1} fontWeight="bolder" variant="body2">
                 Gas processing
               </Typography>
             </Box>
@@ -95,9 +91,7 @@ const EachProject = () => {
             <Box
               color="#707B7C"
               padding={1}
-              sx={{ borderColor: "#707B7C" }}
-              borderRadius={2}
-              border={1}
+              sx={{ boxShadow: 2 }}
               textAlign="center"
             >
               <img
@@ -106,13 +100,13 @@ const EachProject = () => {
                 height={70}
                 alt="local_marketing"
               />
-              <Typography fontWeight="bolder" variant="body2">
+              <Typography marginTop={1} fontWeight="bolder" variant="body2">
                 Local marketing
               </Typography>
             </Box>
           </Grid>
         </Grid>
-        <Box marginTop={3}>
+        <Box marginTop={5}>
           <Button
             sx={{
               ":hover": {
@@ -122,7 +116,6 @@ const EachProject = () => {
               borderColor: "#CB4335",
               color: "whitesmoke",
               backgroundColor: "#CB4335",
-              borderRadius: 20,
             }}
             size="small"
             variant="outlined"
@@ -138,8 +131,7 @@ const EachProject = () => {
               borderColor: "#CB4335",
               color: "whitesmoke",
               backgroundColor: "#CB4335",
-              borderRadius: 20,
-              marginLeft: 1,
+              marginLeft: 2,
             }}
             size="small"
             variant="outlined"

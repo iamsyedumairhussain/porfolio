@@ -2,7 +2,6 @@ import { Button, Typography, Grid, Box } from "@mui/material";
 import dubaicustoms from "../../../assets/images/projects/dubaicustoms/DubaiCustoms.png";
 import DCHeadquarter from "../../../assets/images/projects/dubaicustoms/DCHeadquarter.jpg";
 import React from "react";
-import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
 
 const EachProject = () => {
   return (
@@ -80,8 +79,8 @@ const EachProject = () => {
         />
         <img
           style={{ borderRadius: 10, marginTop: "25px" }}
-          height={300}
-          width={500}
+          height={400}
+          width={560}
           src={DCHeadquarter}
           alt="DCHeadquarter"
         />
