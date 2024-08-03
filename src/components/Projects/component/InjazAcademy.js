@@ -1,5 +1,4 @@
 import { Typography, Grid, Box } from "@mui/material";
-import injazacademy from "../../../assets/images/projects/injazacademy/injazacademy.jpg";
 import injazacademy2 from "../../../assets/images/projects/injazacademy/injazacademy3.jpg";
 import injazacademy_icon from "../../../assets/images/projects/injazacademy/injazacademy_icon.jpg";
 import React from "react";
@@ -33,49 +32,64 @@ const EachProject = () => {
         </Typography>
         <Grid spacing={2} marginY={2} container>
           <Grid item md={4} xs={12}>
-            <Box padding={1} color="#707B7C" textAlign="center">
+            <Box
+              sx={{ boxShadow: 2 }}
+              padding={1}
+              color="#707B7C"
+              textAlign="center"
+            >
               <img
                 src={injazacademy_icon}
                 width={40}
                 height={40}
                 alt="fbaprep"
               />
-              <Typography fontWeight="bolder" color="#5499C7" variant="body1">
+              <Typography color="#5499C7" variant="body1">
                 Work readiness
               </Typography>
-              <Typography marginTop={1} variant="body1">
+              <Typography marginTop={1} variant="body2">
                 Preparing Youth for the Jobs of the Future
               </Typography>
             </Box>
           </Grid>
           <Grid item md={4} xs={12}>
-            <Box padding={1} color="#707B7C" textAlign="center">
+            <Box
+              sx={{ boxShadow: 2 }}
+              padding={1}
+              color="#707B7C"
+              textAlign="center"
+            >
               <img
                 src={injazacademy_icon}
                 width={40}
                 height={40}
                 alt="fbaprep"
               />
-              <Typography fontWeight="bolder" color="#5499C7" variant="body1">
+              <Typography color="#5499C7" variant="body1">
                 Financial literacy
               </Typography>
-              <Typography marginTop={1} variant="body1">
+              <Typography marginTop={1} variant="body2">
                 Developing Financial Independence
               </Typography>
             </Box>
           </Grid>
           <Grid item md={4} xs={12}>
-            <Box padding={1} color="#707B7C" textAlign="center">
+            <Box
+              sx={{ boxShadow: 2 }}
+              padding={1}
+              color="#707B7C"
+              textAlign="center"
+            >
               <img
                 src={injazacademy_icon}
                 width={40}
                 height={40}
                 alt="fbaprep"
               />
-              <Typography fontWeight="bolder" color="#5499C7" variant="body1">
+              <Typography color="#5499C7" variant="body1">
                 Entrepreneurship
               </Typography>
-              <Typography marginTop={1} variant="body1">
+              <Typography marginTop={1} variant="body2">
                 Cultivating an Entrepreneurial Mindset
               </Typography>
             </Box>
@@ -89,13 +103,6 @@ const EachProject = () => {
         xs={12}
         md={6}
       >
-        <img
-          style={{ marginTop: "30px" }}
-          height={300}
-          width={300}
-          src={injazacademy}
-          alt="injazacademy"
-        />
         <img
           style={{ borderRadius: 10, marginTop: "10px" }}
           height={450}

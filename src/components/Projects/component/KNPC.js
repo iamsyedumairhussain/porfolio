@@ -64,7 +64,7 @@ const EachProject = () => {
                 height={70}
                 alt="oil_refinery"
               />
-              <Typography marginTop={1} fontWeight="bolder" variant="body2">
+              <Typography marginTop={1} variant="body2">
                 Oil refinery
               </Typography>
             </Box>
@@ -82,7 +82,7 @@ const EachProject = () => {
                 height={70}
                 alt="gas_processing"
               />
-              <Typography marginTop={1} fontWeight="bolder" variant="body2">
+              <Typography marginTop={1} variant="body2">
                 Gas processing
               </Typography>
             </Box>
@@ -100,7 +100,7 @@ const EachProject = () => {
                 height={70}
                 alt="local_marketing"
               />
-              <Typography marginTop={1} fontWeight="bolder" variant="body2">
+              <Typography marginTop={1} variant="body2">
                 Local marketing
               </Typography>
             </Box>

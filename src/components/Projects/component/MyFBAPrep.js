@@ -48,73 +48,83 @@ const EachProject = () => {
           fulfillment needs, offering DTC logistics for eCommerce merchants of
           all sizes.
         </Typography>
-        <Grid spacing={2} marginY={2} container>
-          <Grid item md={3} xs={12}>
-            <Box padding={1} color="#707B7C" textAlign="center">
+        <Grid spacing={2} marginY={4} container>
+          <Grid item md={4} xs={12}>
+            <Box
+              sx={{ boxShadow: 2 }}
+              padding={1}
+              color="#707B7C"
+              textAlign="center"
+            >
               <img src={fbaprep} width={50} height={50} alt="fbaprep" />
               <Typography fontWeight="bolder" variant="body2">
                 Amazon FBA prep
               </Typography>
             </Box>
           </Grid>
-          <Grid item md={3} xs={12}>
-            <Box padding={1} color="#707B7C" textAlign="center">
+          <Grid item md={4} xs={12}>
+            <Box
+              sx={{ boxShadow: 2 }}
+              padding={1}
+              color="#707B7C"
+              textAlign="center"
+            >
               <img src={consumer} width={50} height={50} alt="consumer" />
-              <Typography fontWeight="bolder" variant="body2">
+              <Typography variant="body2">
                 Direct to Consumer Fulfillment
               </Typography>
             </Box>
           </Grid>
-          <Grid item md={3} xs={12}>
-            <Box padding={1} color="#707B7C" textAlign="center">
+          <Grid item md={4} xs={12}>
+            <Box
+              sx={{ boxShadow: 2 }}
+              padding={1}
+              color="#707B7C"
+              textAlign="center"
+            >
               <img src={fulfilled} width={50} height={50} alt="fulfilled" />
               <Typography fontWeight="bolder" variant="body2">
                 Amazon Fulfilled by Merchant
               </Typography>
             </Box>
           </Grid>
-          <Grid item md={3} xs={12}>
-            <Box padding={1} color="#707B7C" textAlign="center">
+          <Grid item md={4} xs={12}>
+            <Box
+              sx={{ boxShadow: 2 }}
+              padding={1}
+              color="#707B7C"
+              textAlign="center"
+            >
               <img src={seller} width={50} height={50} alt="seller" />
               <Typography fontWeight="bolder" variant="body2">
                 Amazon Seller Fulfilled Prime
               </Typography>
             </Box>
           </Grid>
-          <Grid item md={3} xs={12}>
-            <Box padding={1} color="#707B7C" textAlign="center">
-              <img
-                src={subscription}
-                width={50}
-                height={50}
-                alt="subscription"
-              />
-              <Typography fontWeight="bolder" variant="body2">
-                Subscription Box Prep and Fulfillment
-              </Typography>
-            </Box>
-          </Grid>
-          <Grid item md={3} xs={12}>
-            <Box padding={1} color="#707B7C" textAlign="center">
+
+          <Grid item md={4} xs={12}>
+            <Box
+              sx={{ boxShadow: 2 }}
+              padding={1}
+              color="#707B7C"
+              textAlign="center"
+            >
               <img src={temperature} width={50} height={50} alt="temperature" />
               <Typography fontWeight="bolder" variant="body2">
                 Temperature-Controlled Logistics
               </Typography>
             </Box>
           </Grid>
-          <Grid item md={3} xs={12}>
-            <Box padding={1} color="#707B7C" textAlign="center">
+          <Grid item md={4} xs={12}>
+            <Box
+              sx={{ boxShadow: 2 }}
+              padding={1}
+              color="#707B7C"
+              textAlign="center"
+            >
               <img src={logistics} width={50} height={50} alt="logistics" />
               <Typography fontWeight="bolder" variant="body2">
                 Reverse Logistics
-              </Typography>
-            </Box>
-          </Grid>
-          <Grid item md={3} xs={12}>
-            <Box padding={1} color="#707B7C" textAlign="center">
-              <img src={value} width={50} height={50} alt="value" />
-              <Typography fontWeight="bolder" variant="body2">
-                Value-Added Services
               </Typography>
             </Box>
           </Grid>

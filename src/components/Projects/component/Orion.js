@@ -1,5 +1,4 @@
 import { Typography, Grid, Box } from "@mui/material";
-import orion from "../../../assets/images/projects/orion/orion.jpg";
 import orion2 from "../../../assets/images/projects/orion/orion2.webp";
 import React from "react";
 import product_catalogue from "../../../assets/images/projects/orion/product_catalogue.png";
@@ -30,80 +29,110 @@ const EachProject = () => {
         </Typography>
         <Grid marginLeft={3} spacing={2} marginY={2} container>
           <Grid item md={3} xs={12}>
-            <Box padding={1} color="#707B7C" textAlign="center">
+            <Box
+              sx={{ boxShadow: 2 }}
+              padding={1}
+              color="#707B7C"
+              textAlign="center"
+            >
               <img
                 src={product_catalogue}
                 width={50}
                 height={50}
                 alt="product_catalogue"
               />
-              <Typography fontWeight="bolder" variant="body2">
+              <Typography marginTop={1} variant="body2">
                 Product catalogue management
               </Typography>
             </Box>
           </Grid>
           <Grid item md={3} xs={12}>
-            <Box padding={1} color="#707B7C" textAlign="center">
+            <Box
+              sx={{ boxShadow: 2 }}
+              padding={1}
+              color="#707B7C"
+              textAlign="center"
+            >
               <img
                 src={artificial_intelligence}
                 width={50}
                 height={50}
                 alt="artificial_intelligence"
               />
-              <Typography fontWeight="bolder" variant="body2">
+              <Typography marginTop={1} variant="body2">
                 AI powered knowledge base
               </Typography>
             </Box>
           </Grid>
           <Grid item md={3} xs={12}>
-            <Box padding={1} color="#707B7C" textAlign="center">
+            <Box
+              sx={{ boxShadow: 2 }}
+              padding={1}
+              color="#707B7C"
+              textAlign="center"
+            >
               <img
                 src={secure_payment}
                 width={50}
                 height={50}
                 alt="secure_payment"
               />
-              <Typography fontWeight="bolder" variant="body2">
-                Secure payments
+              <Typography marginTop={1} variant="body2">
+                Secure payment gateway
               </Typography>
             </Box>
           </Grid>
           <Grid item md={3} xs={12}></Grid>
           <Grid item md={3} xs={12}>
-            <Box padding={1} color="#707B7C" textAlign="center">
+            <Box
+              sx={{ boxShadow: 2 }}
+              padding={1}
+              color="#707B7C"
+              textAlign="center"
+            >
               <img
                 src={customer_interaction}
                 width={50}
                 height={50}
                 alt="customer_interaction"
               />
-              <Typography fontWeight="bolder" variant="body2">
+              <Typography marginTop={1} variant="body2">
                 Customer interaction
               </Typography>
             </Box>
           </Grid>
           <Grid item md={3} xs={12}>
-            <Box padding={1} color="#707B7C" textAlign="center">
+            <Box
+              sx={{ boxShadow: 2 }}
+              padding={1}
+              color="#707B7C"
+              textAlign="center"
+            >
               <img
                 src={order_management}
                 width={50}
                 height={50}
                 alt="order_management"
               />
-              <Typography fontWeight="bolder" variant="body2">
-                Order management
+              <Typography marginTop={1} variant="body2">
+                Automated Order management
               </Typography>
             </Box>
           </Grid>
           <Grid item md={3} xs={12}>
-            <Box padding={1} color="#707B7C" textAlign="center">
+            <Box
+              sx={{ boxShadow: 2 }}
+              padding={1}
+              color="#707B7C"
+              textAlign="center"
+            >
               <img
                 src={customer_support}
                 width={50}
                 height={50}
                 alt="customer_support"
               />
-              <Typography fontWeight="bolder" variant="body2">
+              <Typography marginTop={1} variant="body2">
                 Customer support management
               </Typography>
             </Box>
