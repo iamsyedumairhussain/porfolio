@@ -60,7 +60,6 @@ const Footer = () => {
       <Grid container spacing={5}>
         <Grid item xs={12} md={4}>
           <div className="">
-            <img alt="default" src={logo} width={170} height={100} />
             <p style={{ marginTop: 10 }} className="footer-company-about">
               Explore a world of cutting-edge technology, expert analysis, and
               innovative solutions right here on our IT blogs. Whether{" "}
