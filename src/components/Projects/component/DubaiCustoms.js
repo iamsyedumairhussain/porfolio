@@ -69,6 +69,7 @@ const EachProject = () => {
         boxSizing="border-box"
         xs={12}
         md={6}
+        display={{ xs: "none", md: "block" }}
       >
         <img
           style={{ borderRadius: 10, marginY: "10px" }}

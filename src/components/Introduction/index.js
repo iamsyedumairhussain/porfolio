@@ -36,13 +36,18 @@ function App() {
     <ThemeProvider theme={theme}>
       <Box className={styles.mainDiv}>
         <Box
+          height={{ md: "100vh" }}
           display={{ xs: "none", md: "block" }}
           className={styles.overlay}
         ></Box>
         <Box display={{ xs: "none", md: "inline" }}>
           <video className={styles.video} src={videoBg} autoPlay loop muted />
         </Box>
-        <Box color={{ xs: "black", md: "white" }} className={styles.content}>
+        <Box
+          position={{ xs: "relative", md: "absolute" }}
+          color={{ xs: "black", md: "white" }}
+          className={styles.content}
+        >
           <Navbar />
           <Grid
             container
@@ -50,7 +55,7 @@ function App() {
             justifyContent="center"
             alignContent="center"
           >
-            <Grid item md={10}>
+            <Grid item xs={12} md={10}>
               <Box textAlign="center" padding={2} boxSizing="border-box">
                 <Typography
                   color="#D0D3D4"

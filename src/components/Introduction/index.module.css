@@ -1,6 +1,5 @@
 .mainDiv {
   width: 100%;
-  height: 100vh;
 }
 .mainInnerDiv {
   width: 100%;
@@ -13,7 +12,6 @@
   object-fit: cover;
 }
 .content {
-  position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
@@ -49,4 +47,18 @@
   background-color: whitesmoke;
   color: black;
   border: 1px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainDiv {
+    background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+    color: black;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .mainDiv {
+    background: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%);
+    height: 100vh;
+  }
 }

@@ -27,7 +27,7 @@ const EachProject = () => {
           requirements and expectations of businesses for an all-encompassing 3D
           channel.
         </Typography>
-        <Grid marginLeft={3} spacing={2} marginY={2} container>
+        <Grid marginLeft={{ xs: 0, md: 3 }} spacing={2} marginY={2} container>
           <Grid item md={3} xs={12}>
             <Box
               sx={{ boxShadow: 2 }}
@@ -145,6 +145,7 @@ const EachProject = () => {
         boxSizing="border-box"
         xs={12}
         md={6}
+        display={{ xs: "none", md: "block" }}
       >
         <img
           style={{ borderRadius: 10, marginTop: "25px" }}
