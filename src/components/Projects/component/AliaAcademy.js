@@ -23,7 +23,15 @@ const EachProject = () => {
         />
       </Grid>
       <Grid padding={3} boxSizing="border-box" xs={12} md={6}>
-        <Typography color="#707B7C" marginTop={10} variant="body1">
+        <Typography
+          letterSpacing={2}
+          marginTop={10}
+          color="#34495e"
+          variant="h4"
+        >
+          ALIA ACADEMY
+        </Typography>
+        <Typography color="#707B7C" marginTop={2} variant="body1">
           Nestled within the vibrant tapestry of the Arab world, Alia Academy
           stands as a sanctuary of holistic wellness, beckoning seekers of
           equilibrium to embark on a transformative journey of self-discovery.
@@ -54,7 +62,6 @@ const EachProject = () => {
           these walls, they find not only instructors but also mentors, not only
           classrooms but also sanctuaries for introspection and growth.
         </Typography>
-
         <Box marginTop={3}>
           <Button
             sx={{
@@ -65,7 +72,6 @@ const EachProject = () => {
               borderColor: "#CB4335",
               color: "whitesmoke",
               backgroundColor: "#CB4335",
-              borderRadius: 20,
             }}
             size="small"
             variant="outlined"
@@ -81,7 +87,7 @@ const EachProject = () => {
               borderColor: "#CB4335",
               color: "whitesmoke",
               backgroundColor: "#CB4335",
-              borderRadius: 20,
+
               marginLeft: 1,
             }}
             size="small"

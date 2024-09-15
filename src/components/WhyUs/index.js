@@ -23,7 +23,7 @@ const index = () => {
         </Box>
       </Grid>
       <Grid marginTop={2} padding={3} boxSizing="border-box" xs={12} md={6}>
-        <Grid spacing={2} paddingLeft={3} marginY={2} container>
+        <Grid spacing={2} paddingLeft={{ md: 2 }} marginY={2} container>
           <Grid item md={3} xs={12}>
             <Box
               padding={1}

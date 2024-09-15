@@ -8,9 +8,18 @@ const EachProject = () => {
     <Grid container marginY={3}>
       <Grid padding={3} boxSizing="border-box" xs={12} md={6}>
         <Typography
+          letterSpacing={2}
+          marginTop={4}
+          color="#34495e"
+          variant="h4"
+          marginLeft={5}
+        >
+          INJAZ ACADEMY
+        </Typography>
+        <Typography
           marginLeft={5}
           color="#707B7C"
-          marginTop={10}
+          marginTop={2}
           variant="body1"
         >
           INJAZ Bahrain is a non-profit organization that was established in

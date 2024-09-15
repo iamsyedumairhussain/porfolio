@@ -11,6 +11,12 @@ import sap from "../../assets/images/integrations/sap.png";
 import Divider from "@mui/material/Divider";
 
 const index = () => {
+  const navigate = (item) => {
+    const element = document.getElementById(item);
+    if (element) {
+      element.scrollIntoView();
+    }
+  };
   return (
     <Container sx={{ marginY: 8 }}>
       <Divider />
@@ -40,48 +46,49 @@ const index = () => {
         container
       >
         <Grid textAlign="center" boxSizing="border-box">
-          <Box padding={1} sx={{ width: 140 }}>
+          <Box marginBottom={{ xs: 3, md: 0 }} padding={1} sx={{ width: 140 }}>
             <img alt="" height={50} width={50} src={shopify} />
           </Box>
         </Grid>
         <Grid textAlign="center" boxSizing="border-box">
-          <Box sx={{ width: 140 }}>
+          <Box marginBottom={{ xs: 3, md: 0 }} sx={{ width: 140 }}>
             <img alt="" height={50} width={50} src={woocommerce} />
           </Box>
         </Grid>
         <Grid textAlign="center" boxSizing="border-box">
-          <Box sx={{ width: 140 }}>
+          <Box marginBottom={{ xs: 3, md: 0 }} sx={{ width: 140 }}>
             <img alt="" height={50} width={50} src={magento} />
           </Box>
         </Grid>
         <Grid textAlign="center" boxSizing="border-box">
-          <Box sx={{ width: 140 }}>
+          <Box marginBottom={{ xs: 3, md: 0 }} sx={{ width: 140 }}>
             <img alt="" height={50} width={50} src={bigcommerce} />
           </Box>
         </Grid>
         <Grid textAlign="center" boxSizing="border-box">
-          <Box sx={{ width: 140 }}>
+          <Box marginBottom={{ xs: 3, md: 0 }} sx={{ width: 140 }}>
             <img alt="" height={50} width={50} src={salesforce} />
           </Box>
         </Grid>
         <Grid textAlign="center" boxSizing="border-box">
-          <Box sx={{ width: 140 }}>
+          <Box marginBottom={{ xs: 3, md: 0 }} sx={{ width: 140 }}>
             <img alt="" height={50} width={50} src={wix} />
           </Box>
         </Grid>
         <Grid textAlign="center" boxSizing="border-box">
-          <Box sx={{ width: 140 }}>
+          <Box marginBottom={{ xs: 3, md: 0 }} sx={{ width: 140 }}>
             <img alt="" height={50} width={50} src={squarespace} />
           </Box>
         </Grid>
         <Grid textAlign="center" boxSizing="border-box">
-          <Box sx={{ width: 140 }}>
+          <Box marginBottom={{ xs: 3, md: 0 }} sx={{ width: 140 }}>
             <img alt="" height={50} width={50} src={sap} />
           </Box>
         </Grid>
       </Grid>
       <Box textAlign="center">
         <Button
+          onClick={() => navigate("Contact")}
           sx={{
             "&:hover": {
               backgroundColor: "whitesmoke",

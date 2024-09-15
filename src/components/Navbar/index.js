@@ -15,7 +15,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 
 const drawerWidth = 240;
-const navItems = ["Home", "Services", "About", "Contact"];
+const navItems = ["Home", "Services", "Skills", "Projects", "Contact"];
 
 export default function DrawerAppBar(props) {
   const { window } = props;
@@ -25,16 +25,28 @@ export default function DrawerAppBar(props) {
     setMobileOpen((prevState) => !prevState);
   };
 
+  const navigate = (item) => {
+    const element = document.getElementById(item);
+    if (element) {
+      element.scrollIntoView();
+    }
+  };
+
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
+        Syed Umair Hussain
       </Typography>
       <Divider />
       <List>
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }}>
+            <ListItemButton
+              onClick={() => {
+                navigate(item);
+              }}
+              sx={{ textAlign: "center" }}
+            >
               <ListItemText primary={item} />
             </ListItemButton>
           </ListItem>
@@ -71,7 +83,13 @@ export default function DrawerAppBar(props) {
           ></Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: "white" }}>
+              <Button
+                onClick={() => {
+                  navigate(item);
+                }}
+                key={item}
+                sx={{ color: "white" }}
+              >
                 {item}
               </Button>
             ))}

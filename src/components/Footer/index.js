@@ -53,7 +53,7 @@ const Footer = () => {
               specific needs.
             </p>
 
-            <p className="footer-links">RoomOfCode © 2023</p>
+            <p className="footer-links">All rights reserved</p>
           </div>
         </Grid>
         <Grid item xs={12} md={3}>

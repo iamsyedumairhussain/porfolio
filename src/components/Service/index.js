@@ -11,7 +11,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <Box boxSizing="border-box" padding={2} marginTop={7}>
+    <Box id="Services" boxSizing="border-box" padding={2} marginTop={7}>
       <Typography textAlign="center" variant="h4" letterSpacing={5}>
         SERVICES
       </Typography>

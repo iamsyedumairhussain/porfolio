@@ -7,7 +7,15 @@ const EachProject = () => {
   return (
     <Grid container marginY={3}>
       <Grid padding={3} boxSizing="border-box" xs={12} md={6}>
-        <Box marginLeft={5} color="#707B7C" marginTop={10}>
+        <Box marginLeft={5} color="#707B7C">
+          <Typography
+            letterSpacing={2}
+            marginTop={10}
+            color="#34495e"
+            variant="h4"
+          >
+            DUBAI CUSTOMS
+          </Typography>
           <Typography marginY={2} variant="body1">
             Dubai Customs plays a crucial role in Dubai's development by
             promoting sustainable growth and enhancing the city's global
@@ -38,7 +46,6 @@ const EachProject = () => {
                 },
                 color: "whitesmoke",
                 backgroundColor: "#2471A3",
-                borderRadius: 20,
               }}
               size="small"
               variant="outlined"
@@ -52,7 +59,7 @@ const EachProject = () => {
                 },
                 color: "whitesmoke",
                 backgroundColor: "#2471A3",
-                borderRadius: 20,
+
                 marginLeft: 1,
               }}
               size="small"

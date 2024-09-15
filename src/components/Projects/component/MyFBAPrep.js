@@ -39,7 +39,15 @@ const EachProject = () => {
         />
       </Grid>
       <Grid padding={3} boxSizing="border-box" xs={12} md={6}>
-        <Typography color="#707B7C" marginTop={10} variant="body1">
+        <Typography
+          letterSpacing={2}
+          marginTop={10}
+          color="#34495e"
+          variant="h4"
+        >
+          FBA PREP
+        </Typography>
+        <Typography color="#707B7C" marginTop={2} variant="body1">
           Simplifying and solving FBA prep for top Amazon sellers, so you can
           stay focused on building your business. Fast turnaround, nationwide
           network, full suite of services
@@ -58,9 +66,7 @@ const EachProject = () => {
               textAlign="center"
             >
               <img src={fbaprep} width={50} height={50} alt="fbaprep" />
-              <Typography fontWeight="bolder" variant="body2">
-                Amazon FBA prep
-              </Typography>
+              <Typography variant="body2">Amazon FBA prep</Typography>
             </Box>
           </Grid>
           <Grid item md={4} xs={12}>
@@ -84,7 +90,7 @@ const EachProject = () => {
               textAlign="center"
             >
               <img src={fulfilled} width={50} height={50} alt="fulfilled" />
-              <Typography fontWeight="bolder" variant="body2">
+              <Typography variant="body2">
                 Amazon Fulfilled by Merchant
               </Typography>
             </Box>
@@ -97,7 +103,7 @@ const EachProject = () => {
               textAlign="center"
             >
               <img src={seller} width={50} height={50} alt="seller" />
-              <Typography fontWeight="bolder" variant="body2">
+              <Typography variant="body2">
                 Amazon Seller Fulfilled Prime
               </Typography>
             </Box>
@@ -111,7 +117,7 @@ const EachProject = () => {
               textAlign="center"
             >
               <img src={temperature} width={50} height={50} alt="temperature" />
-              <Typography fontWeight="bolder" variant="body2">
+              <Typography variant="body2">
                 Temperature-Controlled Logistics
               </Typography>
             </Box>
@@ -124,9 +130,7 @@ const EachProject = () => {
               textAlign="center"
             >
               <img src={logistics} width={50} height={50} alt="logistics" />
-              <Typography fontWeight="bolder" variant="body2">
-                Reverse Logistics
-              </Typography>
+              <Typography variant="body2">Reverse Logistics</Typography>
             </Box>
           </Grid>
         </Grid>

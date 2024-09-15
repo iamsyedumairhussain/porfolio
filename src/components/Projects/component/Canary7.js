@@ -31,7 +31,16 @@ const EachProject = () => {
         />
       </Grid>
       <Grid padding={3} boxSizing="border-box" xs={12} md={6}>
-        <Typography color="#707B7C" marginTop={10} variant="body1">
+        <Typography
+          letterSpacing={2}
+          marginTop={10}
+          color="#34495e"
+          variant="h4"
+        >
+          CANARY7
+        </Typography>
+
+        <Typography marginTop={2} color="#707B7C" variant="body1">
           Canary7 is a cloud-based warehouse management tool that addresses the
           challenges inherent in modern warehousing operations. Drawing on years
           of industry experience and expertise in software development, Canary7
@@ -98,7 +107,6 @@ const EachProject = () => {
               },
               color: "whitesmoke",
               backgroundColor: "#117864",
-              borderRadius: 20,
             }}
             size="small"
             variant="outlined"
@@ -112,7 +120,7 @@ const EachProject = () => {
               },
               color: "whitesmoke",
               backgroundColor: "#117864",
-              borderRadius: 20,
+
               marginLeft: 1,
             }}
             size="small"

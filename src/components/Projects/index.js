@@ -11,7 +11,7 @@ import Divider from "@mui/material/Divider";
 
 const index = () => {
   return (
-    <Box>
+    <Box id="Projects">
       <Typography marginY={5} textAlign="center" variant="h4" letterSpacing={5}>
         PROJECTS
       </Typography>

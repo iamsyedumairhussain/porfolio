@@ -14,8 +14,17 @@ const EachProject = () => {
       <Grid padding={3} boxSizing="border-box" xs={12} md={6}>
         <Typography
           marginLeft={5}
+          letterSpacing={2}
+          marginTop={5}
+          color="#34495e"
+          variant="h4"
+        >
+          ORION
+        </Typography>
+        <Typography
+          marginLeft={5}
           color="#707B7C"
-          marginTop={10}
+          marginTop={3}
           variant="body1"
         >
           Orion - a pioneering metaverse platform tailored specifically for

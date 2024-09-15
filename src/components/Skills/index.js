@@ -1,4 +1,4 @@
-import { Box, Grid, Typography } from "@mui/material";
+import { Box, Container, Grid, Typography } from "@mui/material";
 import ux from "../../assets/images/skills/ux.png";
 import coding from "../../assets/images/skills/coding.png";
 import tools from "../../assets/images/skills/tools.png";
@@ -9,108 +9,108 @@ import React from "react";
 
 const Services = () => {
   return (
-    <Box boxSizing="border-box" padding={2} marginTop={3}>
+    <Box id="Skills" boxSizing="border-box" padding={2} marginTop={3}>
       <Typography textAlign="center" variant="h4" letterSpacing={5}>
         SKILLS
       </Typography>
-      <Grid
-        direction="row"
-        justifyContent="center"
-        alignItems="top"
-        spacing={3}
-        marginY={1}
-        container
-      >
-        <Grid marginY={3} item>
-          <Box sx={{ width: 350 }}>
-            <Card
-              sx={{ padding: 2, color: "#34495E", backgroundColor: "#FBFCFC" }}
-              elevation={3}
-            >
-              <Box textAlign="center">
-                <img src={ux} width={50} height={50} alt="ux" />
-              </Box>
-              <CardContent>
-                <Typography
-                  fontWeight="bolder"
-                  gutterBottom
-                  variant="body1"
-                  component="div"
-                >
-                  FRONTEND DEVELOPMENT
-                </Typography>
-                {/* <Typography marginTop={3}>Basics</Typography> */}
-                <Box fontSize={14}>
-                  {/* <ul
-                    style={{
-                      display: "inline-block",
-                      marginTop: 5,
-                    }}
-                  >
-                    <li>HTML - CSS - Javascript / Typescript</li>
-                  </ul> */}
-                  <Typography>Libraries and frameworks</Typography>
-                  <ul
-                    style={{
-                      display: "inline-block",
-                      marginTop: 5,
-                    }}
-                  >
-                    <li>React JS - Next JS</li>
-                    <li>Vue JS - Nuxt JS</li>
-                    <li>Angular JS </li>
-                  </ul>
-                  <Typography>State management</Typography>
-                  <ul
-                    style={{
-                      display: "inline-block",
-                      marginTop: 5,
-                    }}
-                  >
-                    <li>React redux / Redux toolkit</li>
-                  </ul>
-                  <Typography>CSS frameworks</Typography>
-                  <ul
-                    style={{
-                      display: "inline-block",
-                      marginTop: 5,
-                    }}
-                  >
-                    <li>Material UI</li>
-                    <li>Boostrap</li>
-                    <li>Tailwind CSS</li>
-                    <li>Ant design</li>
-                    <li> Chakra UI</li>
-                  </ul>
+      <Container sx={{ marginTop: 3 }}>
+        <Grid
+          direction="row"
+          justifyContent="center"
+          alignItems="top"
+          spacing={2}
+          marginY={1}
+          container
+        >
+          <Grid item xs={12} md={4}>
+            <Box sx={{ width: 350 }}>
+              <Card
+                sx={{
+                  padding: 2,
+                  color: "#34495E",
+                  backgroundColor: "#FBFCFC",
+                }}
+                elevation={3}
+              >
+                <Box textAlign="center">
+                  <img src={ux} width={50} height={50} alt="ux" />
                 </Box>
-                {/* <li>React JS - Next JS</li>
+                <CardContent>
+                  <Typography
+                    fontWeight="bolder"
+                    gutterBottom
+                    variant="body1"
+                    component="div"
+                  >
+                    FRONTEND DEVELOPMENT
+                  </Typography>
+                  <Box fontSize={14}>
+                    <Typography>Libraries and frameworks</Typography>
+                    <ul
+                      style={{
+                        display: "inline-block",
+                        marginTop: 5,
+                      }}
+                    >
+                      <li>React JS - Next JS</li>
+                      <li>Vue JS - Nuxt JS</li>
+                      <li>Angular JS </li>
+                    </ul>
+                    <Typography>State management</Typography>
+                    <ul
+                      style={{
+                        display: "inline-block",
+                        marginTop: 5,
+                      }}
+                    >
+                      <li>React redux / Redux toolkit</li>
+                    </ul>
+                    <Typography>CSS frameworks</Typography>
+                    <ul
+                      style={{
+                        display: "inline-block",
+                        marginTop: 5,
+                      }}
+                    >
+                      <li>Material UI</li>
+                      <li>Boostrap</li>
+                      <li>Tailwind CSS</li>
+                      <li>Ant design</li>
+                      <li> Chakra UI</li>
+                    </ul>
+                  </Box>
+                  {/* <li>React JS - Next JS</li>
             <li>Vue JS - Nuxt JS</li>
             <li>Angular</li> */}
-              </CardContent>
-            </Card>
-          </Box>
-        </Grid>
-        <Grid marginY={3} item>
-          <Box sx={{ width: 350 }}>
-            <Card
-              sx={{ padding: 2, color: "#34495E", backgroundColor: "#FBFCFC" }}
-              elevation={3}
-            >
-              <Box textAlign="center">
-                <img src={coding} width={50} height={50} alt="ux" />
-              </Box>
-              <CardContent>
-                <Typography
-                  fontWeight="bolder"
-                  gutterBottom
-                  variant="body1"
-                  component="div"
-                >
-                  BACKEND DEVELOPMENT
-                </Typography>
-                {/* <Typography marginTop={3}>Basics</Typography> */}
-                <Box fontSize={14}>
-                  {/* <ul
+                </CardContent>
+              </Card>
+            </Box>
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <Box sx={{ width: 350 }}>
+              <Card
+                sx={{
+                  padding: 2,
+                  color: "#34495E",
+                  backgroundColor: "#FBFCFC",
+                }}
+                elevation={3}
+              >
+                <Box textAlign="center">
+                  <img src={coding} width={50} height={50} alt="ux" />
+                </Box>
+                <CardContent>
+                  <Typography
+                    fontWeight="bolder"
+                    gutterBottom
+                    variant="body1"
+                    component="div"
+                  >
+                    BACKEND DEVELOPMENT
+                  </Typography>
+                  {/* <Typography marginTop={3}>Basics</Typography> */}
+                  <Box fontSize={14}>
+                    {/* <ul
                     style={{
                       display: "inline-block",
                       marginTop: 5,
@@ -118,123 +118,131 @@ const Services = () => {
                   >
                     <li>HTML - CSS - Javascript / Typescript</li>
                   </ul> */}
-                  <Typography>Libraries and frameworks</Typography>
-                  <ul
-                    style={{
-                      display: "inline-block",
-                      marginTop: 5,
-                    }}
-                  >
-                    <li>Node JS - Express JS</li>
-                    <li>PHP - Laravel</li>
-                  </ul>
-                  <Typography>Databases</Typography>
-                  <ul
-                    style={{
-                      display: "inline-block",
-                      marginTop: 5,
-                    }}
-                  >
-                    <li>MS SQL - MySQL</li>
-                    <li>MongoDB</li>
-                    <li>PostgreSQL</li>
-                    <li>CouchDB</li>
-                    <li>Firebase</li>
-                    <li>Redis</li>
-                  </ul>
-                  <Typography>Messaging Queue</Typography>
-                  <ul
-                    style={{
-                      display: "inline-block",
-                      marginTop: 5,
-                    }}
-                  >
-                    <li>RabbitMQ</li>
-                  </ul>
+                    <Typography>Libraries and frameworks</Typography>
+                    <ul
+                      style={{
+                        display: "inline-block",
+                        marginTop: 5,
+                      }}
+                    >
+                      <li>Node JS - Express JS</li>
+                      <li>PHP - Laravel</li>
+                    </ul>
+                    <Typography>Databases</Typography>
+                    <ul
+                      style={{
+                        display: "inline-block",
+                        marginTop: 5,
+                      }}
+                    >
+                      <li>MS SQL - MySQL</li>
+                      <li>MongoDB</li>
+                      <li>PostgreSQL</li>
+                      <li>CouchDB</li>
+                      <li>Firebase</li>
+                      <li>Redis</li>
+                    </ul>
+                    <Typography>Messaging Queue</Typography>
+                    <ul
+                      style={{
+                        display: "inline-block",
+                        marginTop: 5,
+                      }}
+                    >
+                      <li>RabbitMQ</li>
+                    </ul>
+                  </Box>
+                </CardContent>
+              </Card>
+            </Box>
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <Box sx={{ width: 350, height: "100%" }}>
+              <Card
+                sx={{
+                  padding: 2,
+                  color: "#34495E",
+                  backgroundColor: "#FBFCFC",
+                }}
+                elevation={3}
+              >
+                <Box textAlign="center">
+                  <img src={tools} width={50} height={50} alt="ux" />
                 </Box>
-              </CardContent>
-            </Card>
-          </Box>
-        </Grid>
-        <Grid marginY={3} item>
-          <Box sx={{ width: 350, height: "100%" }}>
-            <Card
-              sx={{ padding: 2, color: "#34495E", backgroundColor: "#FBFCFC" }}
-              elevation={3}
-            >
-              <Box textAlign="center">
-                <img src={tools} width={50} height={50} alt="ux" />
-              </Box>
-              <CardContent>
-                <Typography
-                  fontWeight="bolder"
-                  gutterBottom
-                  variant="body1"
-                  component="div"
-                >
-                  DEVELOPMENT TOOLS
-                </Typography>
-                {/* <Typography marginTop={3}>Basics</Typography> */}
-                <Box fontSize={14}>
-                  <Typography>Automation & Orchestration tools</Typography>
-                  <ul
-                    style={{
-                      display: "inline-block",
-                      marginTop: 5,
-                    }}
+                <CardContent>
+                  <Typography
+                    fontWeight="bolder"
+                    gutterBottom
+                    variant="body1"
+                    component="div"
                   >
-                    <li>Docker</li>
-                    <li>Kubernetes</li>
-                  </ul>
-                  <Typography>Development architecture</Typography>
-                  <ul
-                    style={{
-                      display: "inline-block",
-                      marginTop: 5,
-                    }}
-                  >
-                    <li>Monolithic architecture</li>
-                    <li>Microservice architecture</li>
-                  </ul>
-                  <Typography>Foundational understanding</Typography>
-                  <ul
-                    style={{
-                      display: "inline-block",
-                      marginTop: 5,
-                    }}
-                  >
-                    <li>AWS</li>
-                    <li>Golang</li>
-                    <li>C - C++</li>
-                    <li>Python</li>
-                    <li>Linux - Bash scripting</li>
-                  </ul>
+                    DEVELOPMENT TOOLS
+                  </Typography>
+                  {/* <Typography marginTop={3}>Basics</Typography> */}
+                  <Box fontSize={14}>
+                    <Typography>Automation & Orchestration tools</Typography>
+                    <ul
+                      style={{
+                        display: "inline-block",
+                        marginTop: 5,
+                      }}
+                    >
+                      <li>Docker</li>
+                      <li>Kubernetes</li>
+                    </ul>
+                    <Typography>Development architecture</Typography>
+                    <ul
+                      style={{
+                        display: "inline-block",
+                        marginTop: 5,
+                      }}
+                    >
+                      <li>Monolithic architecture</li>
+                      <li>Microservice architecture</li>
+                    </ul>
+                    <Typography>Foundational understanding</Typography>
+                    <ul
+                      style={{
+                        display: "inline-block",
+                        marginTop: 5,
+                      }}
+                    >
+                      <li>AWS</li>
+                      <li>Golang</li>
+                      <li>C - C++</li>
+                      <li>Python</li>
+                      <li>Linux - Bash scripting</li>
+                    </ul>
+                  </Box>
+                </CardContent>
+              </Card>
+            </Box>
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <Box sx={{ width: 350 }}>
+              <Card
+                sx={{
+                  padding: 2,
+                  color: "#34495E",
+                  backgroundColor: "#FBFCFC",
+                }}
+                elevation={3}
+              >
+                <Box textAlign="center">
+                  <img src={ecommerce} width={50} height={50} alt="ecommerce" />
                 </Box>
-              </CardContent>
-            </Card>
-          </Box>
-        </Grid>
-        <Grid marginY={3} item>
-          <Box sx={{ width: 350 }}>
-            <Card
-              sx={{ padding: 2, color: "#34495E", backgroundColor: "#FBFCFC" }}
-              elevation={3}
-            >
-              <Box textAlign="center">
-                <img src={ecommerce} width={50} height={50} alt="ecommerce" />
-              </Box>
-              <CardContent>
-                <Typography
-                  fontWeight="bolder"
-                  gutterBottom
-                  variant="body1"
-                  component="div"
-                >
-                  E-COMMERCE CHANNEL INTEGRATION
-                </Typography>
-                {/* <Typography marginTop={3}>Basics</Typography> */}
-                <Box fontSize={14}>
-                  {/* <ul
+                <CardContent>
+                  <Typography
+                    fontWeight="bolder"
+                    gutterBottom
+                    variant="body1"
+                    component="div"
+                  >
+                    E-COMMERCE CHANNEL INTEGRATION
+                  </Typography>
+                  {/* <Typography marginTop={3}>Basics</Typography> */}
+                  <Box fontSize={14}>
+                    {/* <ul
                     style={{
                       display: "inline-block",
                       marginTop: 5,
@@ -242,46 +250,47 @@ const Services = () => {
                   >
                     <li>HTML - CSS - Javascript / Typescript</li>
                   </ul> */}
-                  <Typography>Integration features</Typography>
-                  <ul
-                    style={{
-                      display: "inline-block",
-                      marginTop: 5,
-                    }}
-                  >
-                    <li>Unified Customer Experience</li>
-                    <li>Centralized Data Management</li>
-                    <li>Cross-Channel Inventory Visibility </li>
-                    <li>Personalization </li>
-                    <li>Seamless Transactions </li>
-                    <li>Flexible Fulfillment Options </li>
-                    <li>Data Analytics and Insights </li>
-                  </ul>
-                  <Typography>Ecommerce channels</Typography>
-                  <ul
-                    style={{
-                      display: "inline-block",
-                      marginTop: 5,
-                    }}
-                  >
-                    <li>Shopify</li>
-                    <li>WooCommerce </li>
-                    <li>Magento </li>
-                    <li>BigCommerce</li>
-                    <li>Salesforce Commerce Cloud</li>
-                    <li>Wix eCommerce</li>
-                    <li>Squarespace Commerce</li>
-                    <li>SAP Commerce Cloud & more.</li>
-                  </ul>
-                </Box>
-                {/* <li>React JS - Next JS</li>
+                    <Typography>Integration features</Typography>
+                    <ul
+                      style={{
+                        display: "inline-block",
+                        marginTop: 5,
+                      }}
+                    >
+                      <li>Unified Customer Experience</li>
+                      <li>Centralized Data Management</li>
+                      <li>Cross-Channel Inventory Visibility </li>
+                      <li>Personalization </li>
+                      <li>Seamless Transactions </li>
+                      <li>Flexible Fulfillment Options </li>
+                      <li>Data Analytics and Insights </li>
+                    </ul>
+                    <Typography>Ecommerce channels</Typography>
+                    <ul
+                      style={{
+                        display: "inline-block",
+                        marginTop: 5,
+                      }}
+                    >
+                      <li>Shopify</li>
+                      <li>WooCommerce </li>
+                      <li>Magento </li>
+                      <li>BigCommerce</li>
+                      <li>Salesforce Commerce Cloud</li>
+                      <li>Wix eCommerce</li>
+                      <li>Squarespace Commerce</li>
+                      <li>SAP Commerce Cloud & more.</li>
+                    </ul>
+                  </Box>
+                  {/* <li>React JS - Next JS</li>
             <li>Vue JS - Nuxt JS</li>
             <li>Angular</li> */}
-              </CardContent>
-            </Card>
-          </Box>
+                </CardContent>
+              </Card>
+            </Box>
+          </Grid>
         </Grid>
-      </Grid>
+      </Container>
     </Box>
   );
 };

@@ -99,11 +99,10 @@ export default function SignIn() {
         </Alert>
       </Snackbar>
       <CssBaseline />
-      <Box>
+      <Box margin={{ xs: 2, md: 0 }}>
         <Box textAlign="center">
           <Typography fontWeight="bold" variant="h4" color="#2E4053">
-            {" "}
-            Message us{" "}
+            Message us
           </Typography>
         </Box>
         <Box

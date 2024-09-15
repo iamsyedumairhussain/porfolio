@@ -1,10 +1,6 @@
 .mainDiv {
+  position: relative;
   width: 100%;
-}
-.mainInnerDiv {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
 }
 .video {
   width: 100%;
@@ -20,8 +16,6 @@
 
 .overlay {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
@@ -59,6 +53,6 @@
 @media only screen and (min-width: 992px) {
   .mainDiv {
     background: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%);
-    height: 100vh;
+    /* height: 100vh; */
   }
 }

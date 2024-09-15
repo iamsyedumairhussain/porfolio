@@ -34,9 +34,8 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Box className={styles.mainDiv}>
+      <Box bgcolor="red" className={styles.mainDiv}>
         <Box
-          height={{ md: "100vh" }}
           display={{ xs: "none", md: "block" }}
           className={styles.overlay}
         ></Box>
@@ -170,16 +169,6 @@ function App() {
                 </Box>
               </Box>
             </Grid>
-            {/* <Grid item md={5}>
-              <Box
-                marginTop={4}
-                display={{ xs: "none", md: "flex" }}
-                justifyContent="center"
-                alignItems="center"
-              >
-                <img alt="default" src={developer} width={280} height={400} />
-              </Box>
-            </Grid> */}
           </Grid>
         </Box>
       </Box>

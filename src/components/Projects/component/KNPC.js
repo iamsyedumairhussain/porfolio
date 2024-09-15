@@ -33,7 +33,15 @@ const EachProject = () => {
         />
       </Grid>
       <Grid padding={3} boxSizing="border-box" xs={12} md={6}>
-        <Typography color="#707B7C" marginTop={10} variant="body1">
+        <Typography
+          letterSpacing={2}
+          marginTop={10}
+          color="#34495e"
+          variant="h4"
+        >
+          KNPC
+        </Typography>
+        <Typography color="#707B7C" marginTop={2} variant="body1">
           The Kuwait National Petroleum Company is the national oil refining
           company of Kuwait. Established in October 1960, KNPC handles the
           responsibility of oil refining, gas liquefaction, and distribution of
