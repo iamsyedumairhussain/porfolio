@@ -1,12 +1,13 @@
 import { Box, Typography } from "@mui/material";
 import Navbar from "../Navbar";
 import styles from "./index.module.css";
-import videoBg from "../../assets/videos/background2.mp4";
+import videoBg from "../../assets/videos/background5.mp4";
 import Grid from "@mui/material/Grid";
 import facebook from "../../assets/icons/facebook.png";
 import github from "../../assets/icons/github.png";
 import linkedin from "../../assets/icons/linkedin.png";
 import gmail from "../../assets/icons/gmail.png";
+import instagram from "../../assets/images/footer/instagram.png";
 import Button from "@mui/material/Button";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 
@@ -34,7 +35,7 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Box bgcolor="red" className={styles.mainDiv}>
+      <Box className={styles.mainDiv}>
         <Box
           display={{ xs: "none", md: "block" }}
           className={styles.overlay}
@@ -67,7 +68,7 @@ function App() {
                 <Typography
                   color="#D6DBDF"
                   fontWeight="bold"
-                  sx={{ marginLeft: 3, marginTop: 1 }}
+                  sx={{ marginLeft: 5, marginTop: 1 }}
                   variant="h5"
                 >
                   Software engineer - Full stack engineer
@@ -111,7 +112,10 @@ function App() {
                 </Typography>
                 <Box marginLeft={3} marginTop={4}>
                   <Box className={styles.footerIcons}>
-                    <a href="/">
+                    <a
+                      style={{ marginLeft: 5 }}
+                      href="https://www.facebook.com/profile.php?id=100088257166763"
+                    >
                       <img
                         alt="default"
                         src={facebook}
@@ -119,10 +123,16 @@ function App() {
                         height={30}
                       />
                     </a>
-                    <a href="/">
+                    <a
+                      style={{ marginLeft: 5 }}
+                      href="https://github.com/syedumairh1998"
+                    >
                       <img alt="default" src={github} width={30} height={30} />
                     </a>
-                    <a href="/">
+                    <a
+                      style={{ marginLeft: 5 }}
+                      href="https://www.linkedin.com/in/syedumairhussain1998/"
+                    >
                       <img
                         alt="default"
                         src={linkedin}
@@ -130,11 +140,22 @@ function App() {
                         height={30}
                       />
                     </a>
-                    <a href="/">
+                    <a
+                      style={{ marginLeft: 5 }}
+                      href="mailto:syedumairhussain1998me@gmail.com"
+                    >
                       <img alt="default" src={gmail} width={30} height={30} />
                     </a>
+                    <a style={{ marginLeft: 5 }} href="/">
+                      <img
+                        alt="default"
+                        src={instagram}
+                        width={30}
+                        height={30}
+                      />
+                    </a>
                   </Box>
-                  <Box marginTop={3}>
+                  <Box paddingBottom={5} marginTop={3}>
                     <Button
                       className={styles.btn}
                       sx={{
@@ -163,7 +184,7 @@ function App() {
                       }}
                       variant="outlined"
                     >
-                      View services
+                      services
                     </Button>
                   </Box>
                 </Box>

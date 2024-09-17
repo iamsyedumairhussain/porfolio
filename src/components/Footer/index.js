@@ -6,6 +6,7 @@ import facebook from "../../assets/images/footer/facebook.png";
 import linkedin from "../../assets/images/footer/linkedin.png";
 import github from "../../assets/images/footer/github.png";
 import instagram from "../../assets/images/footer/instagram.png";
+import gmail from "../../assets/icons/gmail.png";
 
 const Footer = () => {
   const generateQuickLink = () => {
@@ -101,6 +102,13 @@ const Footer = () => {
                 href="https://github.com/syedumairh1998"
               >
                 <img alt="default" src={github} width={20} height={20} />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="mailto:syedumairhussain1998me@gmail.com"
+              >
+                <img alt="default" src={gmail} width={20} height={20} />
               </a>
             </div>
           </div>
