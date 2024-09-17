@@ -78,16 +78,22 @@ const Footer = () => {
             </p>
 
             <div className="footer-icons">
-              <a href="/">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=100088257166763"
+              >
                 <img alt="default" src={facebook} width={20} height={20} />
               </a>
-              <a href="/">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/syedumairhussain1998/"
+              >
                 <img alt="default" src={linkedin} width={20} height={20} />
               </a>
-              <a href="/">
+              <a target="_blank" href="/">
                 <img alt="default" src={instagram} width={20} height={20} />
               </a>
-              <a href="/">
+              <a target="_blank" href="https://github.com/syedumairh1998">
                 <img alt="default" src={github} width={20} height={20} />
               </a>
             </div>

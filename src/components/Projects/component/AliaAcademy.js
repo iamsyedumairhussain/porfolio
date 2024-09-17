@@ -1,7 +1,10 @@
 import { Button, Typography, Grid, Box } from "@mui/material";
 import aliacademy from "../../../assets/images/projects/aliacademy/aliacademy.png";
 import React from "react";
-import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
+
+import nutrition from "../../../assets/images/projects/aliacademy/nutrition.png";
+import lecture from "../../../assets/images/projects/aliacademy/notes.png";
+import program from "../../../assets/images/projects/aliacademy/medical-staff.png";
 
 const EachProject = () => {
   return (
@@ -21,6 +24,54 @@ const EachProject = () => {
           src={aliacademy}
           alt="aliacademy"
         />
+        <Grid
+          spacing={2}
+          marginY={2}
+          container
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+        >
+          <Grid item md={3} xs={12}>
+            <Box
+              padding={1}
+              color="#707B7C"
+              sx={{ boxShadow: 2 }}
+              textAlign="center"
+            >
+              <img src={nutrition} width={70} height={70} alt="oil_refinery" />
+              <Typography marginTop={1} variant="body2">
+                Health nutrition
+              </Typography>
+            </Box>
+          </Grid>
+          <Grid item md={3} xs={12}>
+            <Box
+              color="#707B7C"
+              padding={1}
+              sx={{ boxShadow: 2 }}
+              textAlign="center"
+            >
+              <img src={lecture} width={70} height={70} alt="gas_processing" />
+              <Typography marginTop={1} variant="body2">
+                Health lectures
+              </Typography>
+            </Box>
+          </Grid>
+          <Grid item md={3} xs={12}>
+            <Box
+              color="#707B7C"
+              padding={1}
+              sx={{ boxShadow: 2 }}
+              textAlign="center"
+            >
+              <img src={program} width={70} height={70} alt="local_marketing" />
+              <Typography marginTop={1} variant="body2">
+                Health programs
+              </Typography>
+            </Box>
+          </Grid>
+        </Grid>
       </Grid>
       <Grid padding={3} boxSizing="border-box" xs={12} md={6}>
         <Typography

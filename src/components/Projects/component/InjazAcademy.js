@@ -49,11 +49,11 @@ const EachProject = () => {
             >
               <img
                 src={injazacademy_icon}
-                width={40}
-                height={40}
+                width={30}
+                height={30}
                 alt="fbaprep"
               />
-              <Typography color="#5499C7" variant="body1">
+              <Typography color="#21618c" variant="body1">
                 Work readiness
               </Typography>
               <Typography marginTop={1} variant="body2">
@@ -70,11 +70,11 @@ const EachProject = () => {
             >
               <img
                 src={injazacademy_icon}
-                width={40}
-                height={40}
+                width={30}
+                height={30}
                 alt="fbaprep"
               />
-              <Typography color="#5499C7" variant="body1">
+              <Typography color="#21618c" variant="body1">
                 Financial literacy
               </Typography>
               <Typography marginTop={1} variant="body2">
@@ -91,11 +91,11 @@ const EachProject = () => {
             >
               <img
                 src={injazacademy_icon}
-                width={40}
-                height={40}
+                width={30}
+                height={30}
                 alt="fbaprep"
               />
-              <Typography color="#5499C7" variant="body1">
+              <Typography color="#21618c" variant="body1">
                 Entrepreneurship
               </Typography>
               <Typography marginTop={1} variant="body2">

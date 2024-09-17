@@ -1,5 +1,5 @@
 import { Typography, Grid, Box } from "@mui/material";
-import orion2 from "../../../assets/images/projects/orion/orion2.webp";
+import orion2 from "../../../assets/images/projects/orion/orion3.jpg";
 import React from "react";
 import product_catalogue from "../../../assets/images/projects/orion/product_catalogue.png";
 import artificial_intelligence from "../../../assets/images/projects/orion/artificial_intelligence.png";
@@ -151,6 +151,7 @@ const EachProject = () => {
       <Grid
         textAlign="center"
         padding={3}
+        marginTop={5}
         boxSizing="border-box"
         xs={12}
         md={6}

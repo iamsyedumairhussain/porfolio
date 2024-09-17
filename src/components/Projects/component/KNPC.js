@@ -1,6 +1,6 @@
 import { Button, Typography, Grid, Box } from "@mui/material";
 import knpc from "../../../assets/images/projects/knpc/knpc.jpg";
-import knpc3 from "../../../assets/images/projects/knpc/knpc3.webp";
+import knpc3 from "../../../assets/images/projects/knpc/knpc4.jpg";
 import oil_refinery from "../../../assets/images/projects/knpc/factory.png";
 import gas_processing from "../../../assets/images/projects/knpc/gas-storage.png";
 import local_marketing from "../../../assets/images/projects/knpc/marketing-agency.png";
@@ -26,7 +26,7 @@ const EachProject = () => {
         />
         <img
           style={{ borderRadius: 10 }}
-          height={400}
+          height={450}
           width={550}
           src={knpc3}
           alt="knpc2"

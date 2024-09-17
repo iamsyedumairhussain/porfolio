@@ -1,5 +1,5 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
-import ux from "../../assets/images/skills/ux.png";
+import ux2 from "../../assets/images/skills/ux2.png";
 import coding from "../../assets/images/skills/coding.png";
 import tools from "../../assets/images/skills/tools.png";
 import ecommerce from "../../assets/images/skills/ecommerce.png";
@@ -32,20 +32,29 @@ const Services = () => {
                 }}
                 elevation={3}
               >
-                <Box textAlign="center">
+                {/* <Box textAlign="center">
                   <img src={ux} width={50} height={50} alt="ux" />
-                </Box>
+                </Box> */}
                 <CardContent>
-                  <Typography
-                    fontWeight="bolder"
-                    gutterBottom
-                    variant="body1"
-                    component="div"
-                  >
-                    FRONTEND DEVELOPMENT
-                  </Typography>
+                  <Grid container>
+                    <Grid textAlign="left" item xs={2}>
+                      <img src={ux2} width={30} height={30} alt="ux" />
+                    </Grid>
+                    <Grid item xs={10}>
+                      <Typography
+                        fontWeight="bolder"
+                        gutterBottom
+                        variant="body1"
+                        component="div"
+                      >
+                        FRONTEND DEVELOPMENT
+                      </Typography>
+                    </Grid>
+                  </Grid>
                   <Box fontSize={14}>
-                    <Typography>Libraries and frameworks</Typography>
+                    <Typography marginTop={2}>
+                      Libraries and frameworks
+                    </Typography>
                     <ul
                       style={{
                         display: "inline-block",
@@ -96,18 +105,28 @@ const Services = () => {
                 }}
                 elevation={3}
               >
-                <Box textAlign="center">
-                  <img src={coding} width={50} height={50} alt="ux" />
-                </Box>
                 <CardContent>
+                  <Grid container>
+                    <Grid textAlign="left" item xs={2}>
+                      <img src={ux2} width={30} height={30} alt="ux" />
+                    </Grid>
+                    <Grid item xs={10}>
+                      <Typography
+                        fontWeight="bolder"
+                        gutterBottom
+                        variant="body1"
+                        component="div"
+                      >
+                        BACKEND DEVELOPMENT
+                      </Typography>
+                    </Grid>
+                  </Grid>
                   <Typography
                     fontWeight="bolder"
                     gutterBottom
                     variant="body1"
                     component="div"
-                  >
-                    BACKEND DEVELOPMENT
-                  </Typography>
+                  ></Typography>
                   {/* <Typography marginTop={3}>Basics</Typography> */}
                   <Box fontSize={14}>
                     {/* <ul
@@ -118,7 +137,9 @@ const Services = () => {
                   >
                     <li>HTML - CSS - Javascript / Typescript</li>
                   </ul> */}
-                    <Typography>Libraries and frameworks</Typography>
+                    <Typography marginTop={2}>
+                      Libraries and frameworks
+                    </Typography>
                     <ul
                       style={{
                         display: "inline-block",
@@ -166,21 +187,27 @@ const Services = () => {
                 }}
                 elevation={3}
               >
-                <Box textAlign="center">
-                  <img src={tools} width={50} height={50} alt="ux" />
-                </Box>
                 <CardContent>
-                  <Typography
-                    fontWeight="bolder"
-                    gutterBottom
-                    variant="body1"
-                    component="div"
-                  >
-                    DEVELOPMENT TOOLS
-                  </Typography>
+                  <Grid container>
+                    <Grid textAlign="left" item xs={2}>
+                      <img src={ux2} width={30} height={30} alt="ux" />
+                    </Grid>
+                    <Grid item xs={10}>
+                      <Typography
+                        fontWeight="bolder"
+                        gutterBottom
+                        variant="body1"
+                        component="div"
+                      >
+                        DEVELOPMENT TOOLS
+                      </Typography>
+                    </Grid>
+                  </Grid>
                   {/* <Typography marginTop={3}>Basics</Typography> */}
                   <Box fontSize={14}>
-                    <Typography>Automation & Orchestration tools</Typography>
+                    <Typography marginTop={2}>
+                      Automation & Orchestration tools
+                    </Typography>
                     <ul
                       style={{
                         display: "inline-block",
@@ -228,18 +255,23 @@ const Services = () => {
                 }}
                 elevation={3}
               >
-                <Box textAlign="center">
-                  <img src={ecommerce} width={50} height={50} alt="ecommerce" />
-                </Box>
                 <CardContent>
-                  <Typography
-                    fontWeight="bolder"
-                    gutterBottom
-                    variant="body1"
-                    component="div"
-                  >
-                    E-COMMERCE CHANNEL INTEGRATION
-                  </Typography>
+                  <Grid container>
+                    <Grid textAlign="left" item xs={2}>
+                      <img src={ux2} width={30} height={30} alt="ux" />
+                    </Grid>
+                    <Grid item xs={10}>
+                      <Typography
+                        fontWeight="bolder"
+                        gutterBottom
+                        variant="body1"
+                        component="div"
+                      >
+                        E-COMMERCE CHANNEL INTEGRATION
+                      </Typography>
+                    </Grid>
+                  </Grid>
+
                   {/* <Typography marginTop={3}>Basics</Typography> */}
                   <Box fontSize={14}>
                     {/* <ul
@@ -250,7 +282,7 @@ const Services = () => {
                   >
                     <li>HTML - CSS - Javascript / Typescript</li>
                   </ul> */}
-                    <Typography>Integration features</Typography>
+                    <Typography marginTop={2}>Integration features</Typography>
                     <ul
                       style={{
                         display: "inline-block",

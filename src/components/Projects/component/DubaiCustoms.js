@@ -1,6 +1,6 @@
 import { Button, Typography, Grid, Box } from "@mui/material";
 import dubaicustoms from "../../../assets/images/projects/dubaicustoms/DubaiCustoms.png";
-import DCHeadquarter from "../../../assets/images/projects/dubaicustoms/DCHeadquarter.jpg";
+import DCHeadquarter from "../../../assets/images/projects/dubaicustoms/DCHeadquarter2.jpg";
 import React from "react";
 
 const EachProject = () => {
