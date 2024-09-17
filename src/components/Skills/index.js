@@ -1,8 +1,5 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
 import ux2 from "../../assets/images/skills/ux2.png";
-import coding from "../../assets/images/skills/coding.png";
-import tools from "../../assets/images/skills/tools.png";
-import ecommerce from "../../assets/images/skills/ecommerce.png";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import React from "react";
@@ -22,8 +19,8 @@ const Services = () => {
           marginY={1}
           container
         >
-          <Grid item xs={12} md={4}>
-            <Box sx={{ width: 350 }}>
+          <Grid item xs={12} md={4} marginBottom={{ xs: 3, md: 2 }}>
+            <Box width={{ md: 350 }}>
               <Card
                 sx={{
                   padding: 2,
@@ -32,9 +29,6 @@ const Services = () => {
                 }}
                 elevation={3}
               >
-                {/* <Box textAlign="center">
-                  <img src={ux} width={50} height={50} alt="ux" />
-                </Box> */}
                 <CardContent>
                   <Grid container>
                     <Grid textAlign="left" item xs={2}>
@@ -95,8 +89,8 @@ const Services = () => {
               </Card>
             </Box>
           </Grid>
-          <Grid item xs={12} md={4}>
-            <Box sx={{ width: 350 }}>
+          <Grid item xs={12} md={4} marginBottom={{ xs: 3, md: 2 }}>
+            <Box width={{ md: 350 }}>
               <Card
                 sx={{
                   padding: 2,
@@ -177,8 +171,8 @@ const Services = () => {
               </Card>
             </Box>
           </Grid>
-          <Grid item xs={12} md={4}>
-            <Box sx={{ width: 350, height: "100%" }}>
+          <Grid item xs={12} md={4} marginBottom={{ xs: 3, md: 2 }}>
+            <Box width={{ md: 350 }}>
               <Card
                 sx={{
                   padding: 2,
@@ -245,8 +239,8 @@ const Services = () => {
               </Card>
             </Box>
           </Grid>
-          <Grid item xs={12} md={4}>
-            <Box sx={{ width: 350 }}>
+          <Grid item xs={12} md={4} marginBottom={{ xs: 3, md: 2 }}>
+            <Box width={{ md: 350 }}>
               <Card
                 sx={{
                   padding: 2,

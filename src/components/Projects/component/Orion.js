@@ -13,16 +13,16 @@ const EachProject = () => {
     <Grid container marginY={3}>
       <Grid padding={3} boxSizing="border-box" xs={12} md={6}>
         <Typography
-          marginLeft={5}
+          marginLeft={{ md: 5 }}
           letterSpacing={2}
-          marginTop={5}
+          marginTop={{ xs: 3, md: 5 }}
           color="#34495e"
           variant="h4"
         >
           ORION
         </Typography>
         <Typography
-          marginLeft={5}
+          marginLeft={{ md: 5 }}
           color="#707B7C"
           marginTop={3}
           variant="body1"
@@ -36,11 +36,18 @@ const EachProject = () => {
           requirements and expectations of businesses for an all-encompassing 3D
           channel.
         </Typography>
-        <Grid marginLeft={{ xs: 0, md: 3 }} spacing={2} marginY={2} container>
+        <Grid
+          marginLeft={{ xs: 0, md: 3 }}
+          spacing={{ md: 2 }}
+          marginTop={{ md: 3 }}
+          marginY={2}
+          container
+        >
           <Grid item md={3} xs={12}>
             <Box
               sx={{ boxShadow: 2 }}
               padding={1}
+              marginTop={{ xs: 3, md: 0 }}
               color="#707B7C"
               textAlign="center"
             >
@@ -59,6 +66,7 @@ const EachProject = () => {
             <Box
               sx={{ boxShadow: 2 }}
               padding={1}
+              marginTop={{ xs: 3, md: 0 }}
               color="#707B7C"
               textAlign="center"
             >
@@ -77,6 +85,7 @@ const EachProject = () => {
             <Box
               sx={{ boxShadow: 2 }}
               padding={1}
+              marginTop={{ xs: 3, md: 0 }}
               color="#707B7C"
               textAlign="center"
             >
@@ -96,6 +105,7 @@ const EachProject = () => {
             <Box
               sx={{ boxShadow: 2 }}
               padding={1}
+              marginTop={{ xs: 3, md: 0 }}
               color="#707B7C"
               textAlign="center"
             >
@@ -114,6 +124,7 @@ const EachProject = () => {
             <Box
               sx={{ boxShadow: 2 }}
               padding={1}
+              marginTop={{ xs: 3, md: 0 }}
               color="#707B7C"
               textAlign="center"
             >
@@ -132,6 +143,7 @@ const EachProject = () => {
             <Box
               sx={{ boxShadow: 2 }}
               padding={1}
+              marginTop={{ xs: 3, md: 0 }}
               color="#707B7C"
               textAlign="center"
             >

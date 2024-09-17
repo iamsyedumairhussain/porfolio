@@ -18,10 +18,10 @@ const index = () => {
     }
   };
   return (
-    <Container sx={{ marginY: 8 }}>
+    <Container sx={{ marginY: { md: 8 } }}>
       <Divider />
       <Typography
-        marginTop={8}
+        marginTop={{ md: 8, xs: 4 }}
         textAlign="center"
         variant="h5"
         fontWeight="bold"
@@ -37,52 +37,51 @@ const index = () => {
         accuracy, and customer satisfaction
       </Typography>
       <Grid
-        direction="row"
-        justifyContent="center"
-        alignItems="top"
-        spacing={3}
         marginY={1}
         marginTop={6}
         container
+        display={{ md: "flex" }}
+        justifyContent={{ md: "center" }}
+        alignItems={{ md: "center" }}
       >
-        <Grid textAlign="center" boxSizing="border-box">
-          <Box marginBottom={{ xs: 3, md: 0 }} padding={1} sx={{ width: 140 }}>
+        <Grid item xs={6} md={1} boxSizing="border-box">
+          <Box textAlign="center" marginBottom={{ xs: 3, md: 0 }}>
             <img alt="" height={50} width={50} src={shopify} />
           </Box>
         </Grid>
-        <Grid textAlign="center" boxSizing="border-box">
-          <Box marginBottom={{ xs: 3, md: 0 }} sx={{ width: 140 }}>
+        <Grid item xs={6} md={1} boxSizing="border-box">
+          <Box textAlign="center" marginBottom={{ xs: 3, md: 0 }}>
             <img alt="" height={50} width={50} src={woocommerce} />
           </Box>
         </Grid>
-        <Grid textAlign="center" boxSizing="border-box">
-          <Box marginBottom={{ xs: 3, md: 0 }} sx={{ width: 140 }}>
+        <Grid item xs={6} md={1} boxSizing="border-box">
+          <Box textAlign="center" marginBottom={{ xs: 3, md: 0 }}>
             <img alt="" height={50} width={50} src={magento} />
           </Box>
         </Grid>
-        <Grid textAlign="center" boxSizing="border-box">
-          <Box marginBottom={{ xs: 3, md: 0 }} sx={{ width: 140 }}>
+        <Grid item xs={6} md={1} boxSizing="border-box">
+          <Box textAlign="center" marginBottom={{ xs: 3, md: 0 }}>
             <img alt="" height={50} width={50} src={bigcommerce} />
           </Box>
         </Grid>
-        <Grid textAlign="center" boxSizing="border-box">
-          <Box marginBottom={{ xs: 3, md: 0 }} sx={{ width: 140 }}>
+        <Grid item xs={6} md={1} boxSizing="border-box">
+          <Box textAlign="center" marginBottom={{ xs: 3, md: 0 }}>
             <img alt="" height={50} width={50} src={salesforce} />
           </Box>
         </Grid>
-        <Grid textAlign="center" boxSizing="border-box">
-          <Box marginBottom={{ xs: 3, md: 0 }} sx={{ width: 140 }}>
+        <Grid item xs={6} md={1} boxSizing="border-box">
+          <Box textAlign="center" marginBottom={{ xs: 3, md: 0 }}>
             <img alt="" height={50} width={50} src={wix} />
           </Box>
         </Grid>
-        <Grid textAlign="center" boxSizing="border-box">
-          <Box marginBottom={{ xs: 3, md: 0 }} sx={{ width: 140 }}>
+        <Grid item xs={6} md={1} boxSizing="border-box">
+          <Box textAlign="center" marginBottom={{ xs: 3, md: 0 }}>
             <img alt="" height={50} width={50} src={squarespace} />
           </Box>
         </Grid>
-        <Grid textAlign="center" boxSizing="border-box">
-          <Box marginBottom={{ xs: 3, md: 0 }} sx={{ width: 140 }}>
-            <img alt="" height={50} width={50} src={sap} />
+        <Grid item xs={6} md={1} boxSizing="border-box">
+          <Box textAlign="center" marginBottom={{ xs: 3, md: 0 }}>
+            <img alt="" height={70} width={70} src={sap} />
           </Box>
         </Grid>
       </Grid>
@@ -95,7 +94,7 @@ const index = () => {
               color: "black",
               border: "1px solid whitesmoke",
             },
-            marginTop: 5,
+            marginTop: { md: 5 },
             paddingX: 5,
             textAlign: "center",
             border: "1px solid whitesmoke",

@@ -9,15 +9,15 @@ const EachProject = () => {
       <Grid padding={3} boxSizing="border-box" xs={12} md={6}>
         <Typography
           letterSpacing={2}
-          marginTop={4}
+          marginTop={{ md: 4 }}
           color="#34495e"
           variant="h4"
-          marginLeft={5}
+          marginLeft={{ md: 5 }}
         >
           INJAZ ACADEMY
         </Typography>
         <Typography
-          marginLeft={5}
+          marginLeft={{ md: 5 }}
           color="#707B7C"
           marginTop={2}
           variant="body1"
@@ -30,17 +30,17 @@ const EachProject = () => {
           entrepreneurship, sustainability, STEM, digital literacy, and more.
         </Typography>
         <Typography
-          marginLeft={5}
           color="#707B7C"
           marginTop={1}
           variant="body1"
+          marginLeft={{ md: 5 }}
         >
           With the help of its partners and volunteers, INJAZ Bahrain impacts
           thousands of students every year bringing them closer to the real
           world and opening their minds to their own potential.
         </Typography>
         <Grid spacing={2} marginY={2} container>
-          <Grid item md={4} xs={12}>
+          <Grid item md={4} xs={12} marginTop={{ xs: 2, md: 0 }}>
             <Box
               sx={{ boxShadow: 2 }}
               padding={1}
@@ -61,7 +61,7 @@ const EachProject = () => {
               </Typography>
             </Box>
           </Grid>
-          <Grid item md={4} xs={12}>
+          <Grid item md={4} xs={12} marginTop={{ xs: 2, md: 0 }}>
             <Box
               sx={{ boxShadow: 2 }}
               padding={1}
@@ -82,7 +82,7 @@ const EachProject = () => {
               </Typography>
             </Box>
           </Grid>
-          <Grid item md={4} xs={12}>
+          <Grid item md={4} xs={12} marginTop={{ xs: 2, md: 0 }}>
             <Box
               sx={{ boxShadow: 2 }}
               padding={1}

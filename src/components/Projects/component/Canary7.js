@@ -6,7 +6,7 @@ import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
 
 const EachProject = () => {
   return (
-    <Grid container marginY={3}>
+    <Grid container marginY={{ md: 3 }}>
       <Grid
         textAlign="center"
         padding={3}
@@ -33,7 +33,7 @@ const EachProject = () => {
       <Grid padding={3} boxSizing="border-box" xs={12} md={6}>
         <Typography
           letterSpacing={2}
-          marginTop={10}
+          marginTop={{ md: 10 }}
           color="#34495e"
           variant="h4"
         >

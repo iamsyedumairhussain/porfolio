@@ -6,15 +6,13 @@ import consumer from "../../../assets/images/projects//myfbaprep/consumer.png";
 import fulfilled from "../../../assets/images/projects//myfbaprep/fulfilled.svg";
 import logistics from "../../../assets/images/projects//myfbaprep/logistics.png";
 import seller from "../../../assets/images/projects//myfbaprep/seller.svg";
-import subscription from "../../../assets/images/projects//myfbaprep/subscription.png";
 import temperature from "../../../assets/images/projects//myfbaprep/temperature.png";
-import value from "../../../assets/images/projects//myfbaprep/value.svg";
 
 import React from "react";
 
 const EachProject = () => {
   return (
-    <Grid container marginY={3}>
+    <Grid container marginY={{ md: 3 }}>
       <Grid
         textAlign="center"
         padding={3}
@@ -41,7 +39,7 @@ const EachProject = () => {
       <Grid padding={3} boxSizing="border-box" xs={12} md={6}>
         <Typography
           letterSpacing={2}
-          marginTop={10}
+          marginTop={{ xs: 4, md: 10 }}
           color="#34495e"
           variant="h4"
         >
@@ -58,7 +56,7 @@ const EachProject = () => {
           all sizes.
         </Typography>
         <Grid spacing={2} marginY={4} container>
-          <Grid item md={4} xs={12}>
+          <Grid item md={4} xs={12} marginTop={{ xs: 2, md: 0 }}>
             <Box
               sx={{ boxShadow: 2 }}
               padding={1}
@@ -69,7 +67,7 @@ const EachProject = () => {
               <Typography variant="body2">Amazon FBA prep</Typography>
             </Box>
           </Grid>
-          <Grid item md={4} xs={12}>
+          <Grid item md={4} xs={12} marginTop={{ xs: 2, md: 0 }}>
             <Box
               sx={{ boxShadow: 2 }}
               padding={1}
@@ -82,7 +80,7 @@ const EachProject = () => {
               </Typography>
             </Box>
           </Grid>
-          <Grid item md={4} xs={12}>
+          <Grid item md={4} xs={12} marginTop={{ xs: 2, md: 0 }}>
             <Box
               sx={{ boxShadow: 2 }}
               padding={1}
@@ -95,7 +93,7 @@ const EachProject = () => {
               </Typography>
             </Box>
           </Grid>
-          <Grid item md={4} xs={12}>
+          <Grid item md={4} xs={12} marginTop={{ xs: 2, md: 0 }}>
             <Box
               sx={{ boxShadow: 2 }}
               padding={1}
@@ -109,7 +107,7 @@ const EachProject = () => {
             </Box>
           </Grid>
 
-          <Grid item md={4} xs={12}>
+          <Grid item md={4} xs={12} marginTop={{ xs: 2, md: 0 }}>
             <Box
               sx={{ boxShadow: 2 }}
               padding={1}
@@ -122,7 +120,7 @@ const EachProject = () => {
               </Typography>
             </Box>
           </Grid>
-          <Grid item md={4} xs={12}>
+          <Grid item md={4} xs={12} marginTop={{ xs: 2, md: 0 }}>
             <Box
               sx={{ boxShadow: 2 }}
               padding={1}

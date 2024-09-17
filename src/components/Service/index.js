@@ -23,42 +23,42 @@ const Services = () => {
         marginY={3}
         container
       >
-        <Grid marginY={3} item>
+        <Grid marginY={{ md: 3 }} item>
           <ServiceCard
             title="Web application development"
             image={web}
             description="Transform your ideas into reality with custom web applications designed to streamline your business processes and enhance user experience."
           />
         </Grid>
-        <Grid marginY={3} item>
+        <Grid marginY={{ md: 3 }} item>
           <ServiceCard
             title="Mobile application development"
             image={mobile}
             description="Elevate your business with personalized mobile apps tailored to your needs, ensuring seamless user experiences and enhanced engagement."
           />
         </Grid>
-        <Grid marginY={3} item>
+        <Grid marginY={{ md: 3 }} item>
           <ServiceCard
             title="Database design"
             image={database}
             description="Unlock the power of data with expertly designed databases, optimizing efficiency and enabling informed decision-making for your business."
           />
         </Grid>
-        <Grid marginY={3} item>
+        <Grid marginY={{ md: 3 }} item>
           <ServiceCard
             title="API integration"
             image={api}
             description="Seamlessly connect and optimize your systems with expert API integration services, ensuring smooth data flow and enhanced functionality for your applications."
           />
         </Grid>
-        <Grid marginY={3} item>
+        <Grid marginY={{ md: 3 }} item>
           <ServiceCard
             title="API & Project documentation"
             image={documentation}
             description="Crafting comprehensive API and project documentation to ensure clarity, efficiency, and seamless integration for your development projects."
           />
         </Grid>
-        <Grid marginY={3} item>
+        <Grid marginY={{ md: 3 }} item>
           <ServiceCard
             title="3rd party plugins"
             image={thirdparty}

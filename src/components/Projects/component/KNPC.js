@@ -35,7 +35,7 @@ const EachProject = () => {
       <Grid padding={3} boxSizing="border-box" xs={12} md={6}>
         <Typography
           letterSpacing={2}
-          marginTop={10}
+          marginTop={{ xs: 4, md: 10 }}
           color="#34495e"
           variant="h4"
         >
@@ -73,7 +73,7 @@ const EachProject = () => {
                 height={70}
                 alt="oil_refinery"
               />
-              <Typography marginTop={1} variant="body2">
+              <Typography marginTop={{ xs: 2, md: 1 }} variant="body2">
                 Oil refinery
               </Typography>
             </Box>
@@ -91,7 +91,7 @@ const EachProject = () => {
                 height={70}
                 alt="gas_processing"
               />
-              <Typography marginTop={1} variant="body2">
+              <Typography marginTop={{ xs: 2, md: 1 }} variant="body2">
                 Gas processing
               </Typography>
             </Box>
@@ -109,7 +109,7 @@ const EachProject = () => {
                 height={70}
                 alt="local_marketing"
               />
-              <Typography marginTop={1} variant="body2">
+              <Typography marginTop={{ xs: 2, md: 1 }} variant="body2">
                 Local marketing
               </Typography>
             </Box>

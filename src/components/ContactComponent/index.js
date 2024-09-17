@@ -5,10 +5,16 @@ import ContactForm from "../contact";
 
 const ContactComponent = (props) => {
   return (
-    <Grid id="Contact" container spacing={2} marginTop={8} marginBottom={5}>
+    <Grid
+      id="Contact"
+      container
+      spacing={2}
+      marginTop={{ md: 8 }}
+      marginBottom={5}
+    >
       <Grid
         display={{ xs: "none", sm: "block" }}
-        marginTop={10}
+        marginTop={{ md: 10 }}
         textAlign="right"
         item
         xs={12}
@@ -26,7 +32,7 @@ const ContactComponent = (props) => {
         display="flex"
         justifyContent="center"
         alignItems="center"
-        marginTop={10}
+        marginTop={{ xs: 5, md: 10 }}
         xs={12}
         md={8}
       >

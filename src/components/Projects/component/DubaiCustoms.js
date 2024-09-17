@@ -5,12 +5,12 @@ import React from "react";
 
 const EachProject = () => {
   return (
-    <Grid container marginY={3}>
+    <Grid container marginY={{ md: 3 }}>
       <Grid padding={3} boxSizing="border-box" xs={12} md={6}>
-        <Box marginLeft={5} color="#707B7C">
+        <Box marginLeft={{ md: 5 }} color="#707B7C">
           <Typography
             letterSpacing={2}
-            marginTop={10}
+            marginTop={{ xs: 4, md: 10 }}
             color="#34495e"
             variant="h4"
           >
