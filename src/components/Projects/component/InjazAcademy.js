@@ -6,7 +6,7 @@ import React from "react";
 const EachProject = () => {
   return (
     <Grid container marginY={3}>
-      <Grid padding={3} boxSizing="border-box" xs={12} md={6}>
+      <Grid item padding={3} boxSizing="border-box" xs={12} md={6}>
         <Typography
           letterSpacing={2}
           marginTop={{ md: 4 }}
@@ -106,6 +106,7 @@ const EachProject = () => {
         </Grid>
       </Grid>
       <Grid
+        item
         textAlign="center"
         padding={3}
         boxSizing="border-box"

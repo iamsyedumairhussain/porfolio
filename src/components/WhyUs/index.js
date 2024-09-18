@@ -10,7 +10,7 @@ import support from "../../assets/images/whyus/support.png";
 const index = () => {
   return (
     <Grid marginTop={{ md: 10 }} container marginY={3}>
-      <Grid padding={{ md: 3 }} boxSizing="border-box" xs={12} md={6}>
+      <Grid item padding={{ md: 3 }} boxSizing="border-box" xs={12} md={6}>
         <Box marginLeft={5} color="#707B7C">
           <Typography marginY={{ md: 2 }} variant="h4">
             What you'll get ?
@@ -27,6 +27,7 @@ const index = () => {
         </Box>
       </Grid>
       <Grid
+        item
         marginTop={{ md: 2 }}
         padding={3}
         boxSizing="border-box"

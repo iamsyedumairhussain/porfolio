@@ -13,6 +13,11 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
+import facebook from "../../assets/images/footer/facebook.png";
+import linkedin from "../../assets/images/footer/linkedin.png";
+import github from "../../assets/images/footer/github.png";
+import instagram from "../../assets/images/footer/instagram.png";
+import gmail from "../../assets/icons/gmail.png";
 
 const drawerWidth = 240;
 const navItems = ["Home", "Services", "Skills", "Projects", "Contact"];
@@ -34,9 +39,48 @@ export default function DrawerAppBar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
+      <Typography variant="h6" sx={{ marginTop: 2 }}>
         Syed Umair Hussain
       </Typography>
+      <Typography variant="body1">Full stack engineer</Typography>
+      <Box
+        display="flex"
+        justifyContent="space-around"
+        alignItems="center"
+        margin={2}
+      >
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.facebook.com/profile.php?id=100088257166763"
+        >
+          <img alt="default" src={facebook} width={15} height={15} />
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/syedumairhussain1998/"
+        >
+          <img alt="default" src={linkedin} width={15} height={15} />
+        </a>
+        <a target="_blank" rel="noreferrer" href="/">
+          <img alt="default" src={instagram} width={15} height={15} />
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/syedumairh1998"
+        >
+          <img alt="default" src={github} width={15} height={15} />
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="mailto:syedumairhussain1998me@gmail.com"
+        >
+          <img alt="default" src={gmail} width={15} height={15} />
+        </a>
+      </Box>
       <Divider />
       <List>
         {navItems.map((item) => (

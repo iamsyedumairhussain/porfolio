@@ -6,7 +6,7 @@ import React from "react";
 const EachProject = () => {
   return (
     <Grid container marginY={{ md: 3 }}>
-      <Grid padding={3} boxSizing="border-box" xs={12} md={6}>
+      <Grid item padding={3} boxSizing="border-box" xs={12} md={6}>
         <Box marginLeft={{ md: 5 }} color="#707B7C">
           <Typography
             letterSpacing={2}
@@ -40,6 +40,7 @@ const EachProject = () => {
           </Typography>{" "}
           <Box marginTop={3}>
             <Button
+              onClick={() => window.open(" https://www.dubaicustoms.gov.ae")}
               sx={{
                 ":hover": {
                   color: "black",
@@ -50,9 +51,14 @@ const EachProject = () => {
               size="small"
               variant="outlined"
             >
-              Learn more
+              View product
             </Button>
             <Button
+              onClick={() =>
+                window.open(
+                  "https://www.dubaicustoms.gov.ae/en/eServices/ServicesForBusinesses/Pages/default.aspx"
+                )
+              }
               sx={{
                 ":hover": {
                   color: "black",
@@ -65,12 +71,13 @@ const EachProject = () => {
               size="small"
               variant="outlined"
             >
-              View product
+              Business services
             </Button>
           </Box>
         </Box>
       </Grid>
       <Grid
+        item
         textAlign="center"
         padding={3}
         boxSizing="border-box"

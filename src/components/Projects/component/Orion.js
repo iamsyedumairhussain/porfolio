@@ -11,7 +11,7 @@ import customer_support from "../../../assets/images/projects/orion/customer_sup
 const EachProject = () => {
   return (
     <Grid container marginY={3}>
-      <Grid padding={3} boxSizing="border-box" xs={12} md={6}>
+      <Grid item padding={3} boxSizing="border-box" xs={12} md={6}>
         <Typography
           marginLeft={{ md: 5 }}
           letterSpacing={2}
@@ -161,6 +161,7 @@ const EachProject = () => {
         </Grid>
       </Grid>
       <Grid
+        item
         textAlign="center"
         padding={3}
         marginTop={5}

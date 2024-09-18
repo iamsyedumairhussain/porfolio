@@ -23,6 +23,7 @@ export default function SignIn() {
   });
   const handleSubmit = (event) => {
     event.preventDefault();
+    // eslint-disable-next-line
     const regExp = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     setIsButtonDisable(true);
     const email = event.target.email.value;

@@ -70,6 +70,8 @@ function App() {
                   fontWeight="bold"
                   sx={{ marginLeft: 5, marginTop: 1 }}
                   variant="h5"
+                  lineHeight={{ md: 1.5 }}
+                  letterSpacing={{ md: 1 }}
                 >
                   Software engineer - Full stack engineer
                 </Typography>
@@ -77,6 +79,8 @@ function App() {
                   color="#D6DBDF"
                   sx={{ marginTop: 3 }}
                   variant="body1"
+                  lineHeight={{ md: 1.5 }}
+                  letterSpacing={{ md: 1 }}
                 >
                   Hey folks! It's great to have you stop by!. My name is Umair.
                   I am a dedicated Full Stack Javascript Engineer with over 3
@@ -93,8 +97,10 @@ function App() {
                 </Typography>
                 <Typography
                   color="#D6DBDF"
-                  sx={{ marginTop: 1 }}
+                  sx={{ marginTop: { xs: 1, md: 2 } }}
                   variant="body1"
+                  lineHeight={{ md: 1.5 }}
+                  letterSpacing={{ md: 1 }}
                 >
                   My journey as a Full Stack Engineer has encompassed pivotal
                   roles in logistics, e-commerce, and banking sectors.I have
@@ -155,7 +161,7 @@ function App() {
                       />
                     </a>
                   </Box>
-                  <Box paddingBottom={5} marginTop={3}>
+                  <Box paddingBottom={{ xs: 5, md: 0 }} marginTop={3}>
                     <Button
                       className={styles.btn}
                       sx={{

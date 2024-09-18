@@ -10,6 +10,7 @@ const EachProject = () => {
   return (
     <Grid container marginY={3}>
       <Grid
+        item
         textAlign="center"
         padding={3}
         boxSizing="border-box"
@@ -32,7 +33,7 @@ const EachProject = () => {
           alt="knpc2"
         />
       </Grid>
-      <Grid padding={3} boxSizing="border-box" xs={12} md={6}>
+      <Grid item padding={3} boxSizing="border-box" xs={12} md={6}>
         <Typography
           letterSpacing={2}
           marginTop={{ xs: 4, md: 10 }}
@@ -117,6 +118,7 @@ const EachProject = () => {
         </Grid>
         <Box marginTop={5}>
           <Button
+            onClick={() => window.open("https://www.knpc.com/en")}
             sx={{
               ":hover": {
                 color: "black",
@@ -129,9 +131,12 @@ const EachProject = () => {
             size="small"
             variant="outlined"
           >
-            Learn more
+            View product
           </Button>
           <Button
+            onClick={() =>
+              window.open("https://www.knpc.com/en/about-us/overview")
+            }
             sx={{
               ":hover": {
                 color: "black",
@@ -145,7 +150,7 @@ const EachProject = () => {
             size="small"
             variant="outlined"
           >
-            View product
+            Learn more
           </Button>
         </Box>
       </Grid>
