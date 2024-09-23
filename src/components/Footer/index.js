@@ -93,7 +93,11 @@ const Footer = () => {
               >
                 <img alt="default" src={linkedin} width={20} height={20} />
               </a>
-              <a target="_blank" rel="noreferrer" href="/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.instagram.com/_syedumairhussain/"
+              >
                 <img alt="default" src={instagram} width={20} height={20} />
               </a>
               <a

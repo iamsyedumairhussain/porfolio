@@ -63,7 +63,11 @@ export default function DrawerAppBar(props) {
         >
           <img alt="default" src={linkedin} width={15} height={15} />
         </a>
-        <a target="_blank" rel="noreferrer" href="/">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.instagram.com/_syedumairhussain/"
+        >
           <img alt="default" src={instagram} width={15} height={15} />
         </a>
         <a

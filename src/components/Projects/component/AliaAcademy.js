@@ -84,35 +84,30 @@ const EachProject = () => {
           ALIA ACADEMY
         </Typography>
         <Typography color="#707B7C" marginTop={2} variant="body1">
-          Nestled within the vibrant tapestry of the Arab world, Alia Academy
-          stands as a sanctuary of holistic wellness, beckoning seekers of
-          equilibrium to embark on a transformative journey of self-discovery.
-          Within its hallowed halls, ancient wisdom and modern science converge
-          in a harmonious symphony, offering a myriad of educational pathways to
-          cultivate holistic well-being.
+          Alia Academy, located in the heart of the Arab world, is a center for
+          holistic wellness, inviting people to explore and find balance in
+          their lives. It combines ancient knowledge with modern science to
+          offer various educational programs focused on improving overall
+          well-being.
         </Typography>
         <Typography color="#707B7C" marginTop={1} variant="body1">
-          From immersive classes steeped in the traditions of yore to dynamic
-          workshops exploring the cutting-edge realms of integrative medicine,
-          Alia Academy serves as a nexus where the past and present intersect,
-          illuminating the path toward optimal health and vitality. Here, the
-          ethos of wholeness permeates every facet of learning, nurturing not
-          only the physical body but also nurturing the depths of the soul and
-          the expanses of the mind.
+          Alia Academy offers a blend of traditional and modern wellness
+          approaches through immersive classes and dynamic workshops in
+          integrative medicine. It serves as a place where the past and present
+          come together to guide people toward better health and vitality. The
+          focus is on holistic learning, nurturing the body, soul, and mind.
         </Typography>
         <Typography color="#707B7C" marginTop={1} variant="body1">
-          It's a place where the whispers of ancient healers mingle with the hum
-          of contemporary research, fostering an environment where individuals
-          are empowered to reclaim agency over their health and happiness. At
-          Alia Academy, the journey transcends mere education; it's a sacred
-          odyssey—a pilgrimage towards the embodiment of one's highest
-          potential, where each step taken is a testament to the inherent
-          interconnectedness of all facets of existence. As visitors traverse
-          the corridors of knowledge, they are enveloped in an atmosphere of
-          reverence and curiosity, guided by the collective wisdom of
-          generations past and the innovative spirit of the present. Within
-          these walls, they find not only instructors but also mentors, not only
-          classrooms but also sanctuaries for introspection and growth.
+          Alia Academy is a place where ancient healing wisdom meets modern
+          research, creating an environment that empowers individuals to take
+          control of their health and happiness. The experience goes beyond
+          education—it's a personal journey toward realizing one's full
+          potential. Every step reflects the deep connection between all aspects
+          of life. As visitors explore, they are surrounded by respect and
+          curiosity, guided by both the wisdom of the past and the innovation of
+          the present. At Alia Academy, they find not just teachers, but
+          mentors, and not just classrooms, but spaces for reflection and
+          personal growth.
         </Typography>
         <Box marginTop={3}>
           <Button

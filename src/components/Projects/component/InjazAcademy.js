@@ -22,12 +22,12 @@ const EachProject = () => {
           marginTop={2}
           variant="body1"
         >
-          INJAZ Bahrain is a non-profit organization that was established in
-          2005 as part of Junior Achievement Worldwide with the aim of
-          empowering young people to own their economic success and be prepared
-          for today's business challenges. INJAZ Bahrain delivers hands on,
-          immersive learning in work readiness, financial literacy,
-          entrepreneurship, sustainability, STEM, digital literacy, and more.
+          INJAZ Bahrain is a non-profit organization founded in 2005 as part of
+          Junior Achievement Worldwide. Its mission is to empower young people
+          to succeed in today’s business world. INJAZ Bahrain provides
+          practical, hands-on learning in areas like work readiness, financial
+          literacy, entrepreneurship, sustainability, STEM, and digital
+          literacy.
         </Typography>
         <Typography
           color="#707B7C"
@@ -35,9 +35,9 @@ const EachProject = () => {
           variant="body1"
           marginLeft={{ md: 5 }}
         >
-          With the help of its partners and volunteers, INJAZ Bahrain impacts
-          thousands of students every year bringing them closer to the real
-          world and opening their minds to their own potential.
+          With support from its partners and volunteers, INJAZ Bahrain impacts
+          thousands of students each year, helping them connect with the real
+          world and discover their potential.
         </Typography>
         <Grid spacing={2} marginY={2} container>
           <Grid item md={4} xs={12} marginTop={{ xs: 2, md: 0 }}>

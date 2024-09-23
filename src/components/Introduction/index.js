@@ -119,6 +119,8 @@ function App() {
                 <Box marginLeft={3} marginTop={4}>
                   <Box className={styles.footerIcons}>
                     <a
+                      target="_blank"
+                      rel="noreferrer"
                       style={{ marginLeft: 5 }}
                       href="https://www.facebook.com/profile.php?id=100088257166763"
                     >
@@ -130,12 +132,16 @@ function App() {
                       />
                     </a>
                     <a
+                      target="_blank"
+                      rel="noreferrer"
                       style={{ marginLeft: 5 }}
                       href="https://github.com/syedumairh1998"
                     >
                       <img alt="default" src={github} width={30} height={30} />
                     </a>
                     <a
+                      target="_blank"
+                      rel="noreferrer"
                       style={{ marginLeft: 5 }}
                       href="https://www.linkedin.com/in/syedumairhussain1998/"
                     >
@@ -147,12 +153,19 @@ function App() {
                       />
                     </a>
                     <a
+                      target="_blank"
+                      rel="noreferrer"
                       style={{ marginLeft: 5 }}
                       href="mailto:syedumairhussain1998me@gmail.com"
                     >
                       <img alt="default" src={gmail} width={30} height={30} />
                     </a>
-                    <a style={{ marginLeft: 5 }} href="/">
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      style={{ marginLeft: 5 }}
+                      href="https://www.instagram.com/_syedumairhussain/"
+                    >
                       <img
                         alt="default"
                         src={instagram}
