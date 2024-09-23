@@ -33,6 +33,12 @@ const theme = createTheme({
 });
 
 function App() {
+  const navigate = (item) => {
+    const element = document.getElementById(item);
+    if (element) {
+      element.scrollIntoView();
+    }
+  };
   return (
     <ThemeProvider theme={theme}>
       <Box className={styles.mainDiv}>
@@ -80,7 +86,6 @@ function App() {
                   sx={{ marginTop: 3 }}
                   variant="body1"
                   lineHeight={{ md: 1.5 }}
-                  letterSpacing={{ md: 1 }}
                 >
                   Hey folks! It's great to have you stop by!. My name is Umair.
                   I am a dedicated Full Stack Javascript Engineer with over 3
@@ -177,7 +182,9 @@ function App() {
                   <Box paddingBottom={{ xs: 5, md: 0 }} marginTop={3}>
                     <Button
                       className={styles.btn}
+                      onClick={() => navigate("Contact")}
                       sx={{
+                        width: { md: 150 },
                         "&:hover": {
                           backgroundColor: "whitesmoke",
                           color: "black",
@@ -190,8 +197,10 @@ function App() {
                       Lets talk !
                     </Button>
                     <Button
+                      onClick={() => navigate("Services")}
                       className={styles.btn}
                       sx={{
+                        width: { md: 150 },
                         "&:hover": {
                           backgroundColor: "whitesmoke",
                           color: "black",
